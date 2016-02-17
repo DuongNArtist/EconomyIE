@@ -11,7 +11,7 @@ import java.util.ResourceBundle;
  */
 public class EntController extends BaseController implements BaseController.ManagerCallback{
 
-    @FXML private TextField txtKey;
+    @FXML private TextField txtKeyword;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -34,7 +34,7 @@ public class EntController extends BaseController implements BaseController.Mana
     }
 
     @Override
-    public void onSearch() {
+    public void onSelect() {
 
     }
 }

@@ -22,6 +22,6 @@ public abstract class BaseController implements Initializable{
         void onInsert();
         void onUpdate();
         void onDelete();
-        void onSearch();
+        void onSelect();
     }
 }

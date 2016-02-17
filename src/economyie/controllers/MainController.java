@@ -29,6 +29,7 @@ public class MainController extends BaseController {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         logout();
+        showLogin();
     }
 
     @FXML
@@ -117,7 +118,7 @@ public class MainController extends BaseController {
             FXMLLoader loader = new FXMLLoader(url);
             VBox pane = loader.load();
             panMain.setCenter(pane);
-            UrlController controller = loader.getController();
+            TagController controller = loader.getController();
             controller.setApplication(application);
         } catch (IOException e) {
             e.printStackTrace();
@@ -145,7 +146,7 @@ public class MainController extends BaseController {
             FXMLLoader loader = new FXMLLoader(url);
             VBox pane = loader.load();
             panMain.setCenter(pane);
-            UrlController controller = loader.getController();
+            RuleController controller = loader.getController();
             controller.setApplication(application);
         } catch (IOException e) {
             e.printStackTrace();
