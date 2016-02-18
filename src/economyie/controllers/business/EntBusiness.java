@@ -10,7 +10,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
- * Created by DuongNArtist on 17/12/2015.
+ * Created by Duong on 17/02/2016.
  */
 public class EntBusiness {
     public static final String TABLE = "ent";

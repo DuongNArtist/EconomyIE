@@ -1,6 +1,8 @@
 package economyie.controllers;
 
+import economyie.controllers.business.EntBusiness;
 import economyie.controllers.business.UrlBusiness;
+import economyie.models.EntModel;
 import economyie.models.UrlModel;
 import javafx.fxml.FXML;
 import javafx.scene.control.TableColumn;
@@ -19,71 +21,78 @@ public class EntController extends BaseController implements BaseController.Mana
     @FXML
     private TextField txtKeyword;
     @FXML
-    private TableView<UrlModel> tblData;
+    private TableView<EntModel> tblData;
     @FXML
-    private TableColumn fldUrlId;
+    private TableColumn fldEntId;
     @FXML
-    private TableColumn fldUrlMain;
+    private TableColumn fldEntName;
     @FXML
-    private TableColumn fldUrlFormat;
+    private TableColumn fldEntOwner;
     @FXML
-    private TableColumn fldUrlTag;
+    private TableColumn fldEntAddress;
     @FXML
-    private TableColumn fldUrlStart;
+    private TableColumn fldEntProduct;
     @FXML
-    private TableColumn fldUrlEnd;
+    private TableColumn fldEntProfit;
     @FXML
-    private TableColumn fldUrlStep;
+    private TableColumn fldEntExport;
     @FXML
-    private TextField txtUrlId;
+    private TableColumn fldEntImport;
     @FXML
-    private TextField txtUrlMain;
+    private TextField txtEntId;
     @FXML
-    private TextField txtUrlFormat;
+    private TextField txtEntName;
     @FXML
-    private TextField txtUrlTag;
+    private TextField txtEntOwner;
     @FXML
-    private TextField txtUrlStart;
+    private TextField txtEntAddress;
     @FXML
-    private TextField txtUrlEnd;
+    private TextField txtEntProduct;
     @FXML
-    private TextField txtUrlStep;
+    private TextField txtEntProfit;
+    @FXML
+    private TextField txtEntExport;
+    @FXML
+    private TextField txtEntImport;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        fldUrlId.setCellValueFactory(new PropertyValueFactory<UrlModel, String>("urlId"));
-        fldUrlMain.setCellValueFactory(new PropertyValueFactory<UrlModel, String>("urlMain"));
-        fldUrlFormat.setCellValueFactory(new PropertyValueFactory<UrlModel, String>("urlFormat"));
-        fldUrlTag.setCellValueFactory(new PropertyValueFactory<UrlModel, String>("urlTag"));
-        fldUrlStart.setCellValueFactory(new PropertyValueFactory<UrlModel, String>("urlStart"));
-        fldUrlEnd.setCellValueFactory(new PropertyValueFactory<UrlModel, String>("urlEnd"));
-        fldUrlStep.setCellValueFactory(new PropertyValueFactory<UrlModel, String>("urlStep"));
+        fldEntId.setCellValueFactory(new PropertyValueFactory<UrlModel, String>("entId"));
+        fldEntName.setCellValueFactory(new PropertyValueFactory<UrlModel, String>("entName"));
+        fldEntOwner.setCellValueFactory(new PropertyValueFactory<UrlModel, String>("entOwner"));
+        fldEntAddress.setCellValueFactory(new PropertyValueFactory<UrlModel, String>("entAddress"));
+        fldEntProduct.setCellValueFactory(new PropertyValueFactory<UrlModel, String>("entProduct"));
+        fldEntProfit.setCellValueFactory(new PropertyValueFactory<UrlModel, String>("entProfit"));
+        fldEntExport.setCellValueFactory(new PropertyValueFactory<UrlModel, String>("entExport"));
+        fldEntImport.setCellValueFactory(new PropertyValueFactory<UrlModel, String>("entImport"));
         onSelect();
     }
 
     @FXML
     private void onClicked() {
-        UrlModel model = tblData.getSelectionModel().getSelectedItem();
+        EntModel model = tblData.getSelectionModel().getSelectedItem();
         if (model != null) {
-            txtUrlId.setText(String.valueOf(model.getUrlId()));
-            txtUrlMain.setText(model.getUrlMain());
-            txtUrlFormat.setText(model.getUrlFormat());
-            txtUrlTag.setText(model.getUrlTag());
-            txtUrlStart.setText(String.valueOf(model.getUrlStart()));
-            txtUrlEnd.setText(String.valueOf(model.getUrlEnd()));
-            txtUrlStep.setText(String.valueOf(model.getUrlStep()));
+            txtEntId.setText(String.valueOf(model.getEntId()));
+            txtEntName.setText(model.getEntName());
+            txtEntOwner.setText(model.getEntOwner());
+            txtEntAddress.setText(model.getEntAddress());
+            txtEntProduct.setText(model.getEntProduct());
+            txtEntProfit.setText(model.getEntProfit());
+            txtEntExport.setText(model.getEntExport());
+            txtEntImport.setText(model.getEntImport());
         }
     }
 
-    private UrlModel getModel() {
-        UrlModel model = new UrlModel();
-        model.setUrlId(Integer.parseInt(txtUrlId.getText().trim()));
-        model.setUrlMain(txtUrlMain.getText().trim());
-        model.setUrlFormat(txtUrlFormat.getText().trim());
-        model.setUrlTag(txtUrlTag.getText().trim());
-        model.setUrlStart(Integer.parseInt(txtUrlStart.getText().trim()));
-        model.setUrlEnd(Integer.parseInt(txtUrlEnd.getText().trim()));
-        model.setUrlStep(Integer.parseInt(txtUrlStep.getText().trim()));
+    private EntModel getModel() {
+        EntModel model = new EntModel();
+        model.setEntId(Integer.parseInt(txtEntId.getText().trim()));
+        model.setEntName(txtEntName.getText().trim());
+        model.setEntOwner(txtEntOwner.getText().trim());
+        model.setEntAddress(txtEntAddress.getText().trim());
+        model.setEntProduct(txtEntProduct.getText().trim());
+        model.setEntProfit(txtEntProfit.getText().trim());
+        model.setEntExport(txtEntExport.getText().trim());
+        model.setEntImport(txtEntImport.getText().trim());
         return model;
     }
 
@@ -92,7 +101,7 @@ public class EntController extends BaseController implements BaseController.Mana
         new Thread(new Runnable() {
             @Override
             public void run() {
-                if (UrlBusiness.insert(getModel()) > 0) {
+                if (EntBusiness.insert(getModel()) > 0) {
                     onSelect();
                 }
             }
@@ -104,7 +113,7 @@ public class EntController extends BaseController implements BaseController.Mana
         new Thread(new Runnable() {
             @Override
             public void run() {
-                if (UrlBusiness.update(getModel()) > 0) {
+                if (EntBusiness.update(getModel()) > 0) {
                     onSelect();
                 }
             }
@@ -116,7 +125,7 @@ public class EntController extends BaseController implements BaseController.Mana
         new Thread(new Runnable() {
             @Override
             public void run() {
-                if (UrlBusiness.delete(getModel()) > 0) {
+                if (EntBusiness.delete(getModel()) > 0) {
                     onSelect();
                 }
             }
@@ -128,7 +137,7 @@ public class EntController extends BaseController implements BaseController.Mana
         new Thread(new Runnable() {
             @Override
             public void run() {
-                tblData.setItems(UrlBusiness.select(txtKeyword.getText().trim(), 0, 100));
+                tblData.setItems(EntBusiness.select(txtKeyword.getText().trim(), 0, 100));
                 System.out.println("Table size = " + tblData.getItems().size());
             }
         }).start();

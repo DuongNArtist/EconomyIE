@@ -1,6 +1,6 @@
 package economyie.controllers.business;
 
-import economyie.models.UrlModel;
+import economyie.models.RuleModel;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
@@ -12,25 +12,22 @@ import java.sql.SQLException;
 /**
  * Created by Duong on 17/02/2016.
  */
-public class UrlBusiness {
-    public static final String TABLE = "url";
+public class RuleBusiness {
+    public static final String TABLE = "rule";
     private static Connection connection = null;
 
-    public static ObservableList<UrlModel> select(String keyword, int start, int end) {
-        ObservableList<UrlModel> models = FXCollections.observableArrayList();
+    public static ObservableList<RuleModel> select(String keyword, int start, int end) {
+        ObservableList<RuleModel> models = FXCollections.observableArrayList();
         try {
             connection = DatabaseConnector.getConnection();
             String[] params = new String[]{"%" + keyword + "%", String.valueOf(start), String.valueOf(end)};
             ResultSet resultSet = DatabaseConnector.getCallableStatement(connection, "select_" + TABLE, params).executeQuery();
             while (resultSet.next()) {
-                UrlModel model = new UrlModel();
-                model.setUrlId(resultSet.getInt(TABLE + "_id"));
-                model.setUrlMain(resultSet.getString(TABLE + "_main"));
-                model.setUrlFormat(resultSet.getString(TABLE + "_format"));
-                model.setUrlTag(resultSet.getString(TABLE + "_tag"));
-                model.setUrlStart(resultSet.getInt(TABLE + "_start"));
-                model.setUrlEnd(resultSet.getInt(TABLE + "_end"));
-                model.setUrlStep(resultSet.getInt(TABLE + "_step"));
+                RuleModel model = new RuleModel();
+                model.setRuleId(resultSet.getInt(TABLE + "_id"));
+                model.setTagId(resultSet.getInt(TagBusiness.TABLE + "_id"));
+                model.setRulePrefix(resultSet.getString(TABLE + "_prefix"));
+                model.setRuleSuffix(resultSet.getString(TABLE + "_suffix"));
                 models.add(model);
             }
             DatabaseConnector.closeResultSet(resultSet);
@@ -42,11 +39,11 @@ public class UrlBusiness {
         return models;
     }
 
-    public static int insert(UrlModel model) {
+    public static int insert(RuleModel model) {
         int updated = 0;
         try {
             connection = DatabaseConnector.getConnection();
-            String[] params = new String[]{model.getUrlMain(), model.getUrlFormat(), model.getUrlTag(), String.valueOf(model.getUrlStart()), String.valueOf(model.getUrlEnd()), String.valueOf(model.getUrlStep())};
+            String[] params = new String[]{String.valueOf(model.getTagId()), model.getRulePrefix(), model.getRuleSuffix()};
             CallableStatement statement = DatabaseConnector.getCallableStatement(connection, "insert_" + TABLE, params);
             updated = statement.executeUpdate();
         } catch (SQLException e) {
@@ -57,11 +54,11 @@ public class UrlBusiness {
         return updated;
     }
 
-    public static int update(UrlModel model) {
+    public static int update(RuleModel model) {
         int updated = 0;
         try {
             connection = DatabaseConnector.getConnection();
-            String[] params = new String[]{String.valueOf(model.getUrlId()), model.getUrlMain(), model.getUrlFormat(), model.getUrlTag(), String.valueOf(model.getUrlStart()), String.valueOf(model.getUrlEnd()), String.valueOf(model.getUrlStep())};
+            String[] params = new String[]{String.valueOf(model.getRuleId()), String.valueOf(model.getTagId()), model.getRulePrefix(), model.getRuleSuffix()};
             CallableStatement statement = DatabaseConnector.getCallableStatement(connection, "update_" + TABLE, params);
             updated = statement.executeUpdate();
         } catch (SQLException e) {
@@ -72,11 +69,11 @@ public class UrlBusiness {
         return updated;
     }
 
-    public static int delete(UrlModel model) {
+    public static int delete(RuleModel model) {
         int updated = 0;
         try {
             connection = DatabaseConnector.getConnection();
-            String[] params = new String[]{String.valueOf(model.getUrlId())};
+            String[] params = new String[]{String.valueOf(model.getRuleId())};
             CallableStatement statement = DatabaseConnector.getCallableStatement(connection, "delete_" + TABLE, params);
             updated = statement.executeUpdate();
         } catch (SQLException e) {

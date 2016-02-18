@@ -3,7 +3,7 @@ package economyie.controllers.business;
 import java.sql.*;
 
 /**
- * Created by DuongNArtist on 12/12/2015.
+ * Created by Duong on 17/02/2016.
  */
 public class DatabaseConnector {
 

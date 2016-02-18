@@ -61,14 +61,16 @@ public class DictController extends BaseController implements BaseController.Man
     @FXML
     private void onClicked() {
         DictModel model = tblData.getSelectionModel().getSelectedItem();
-        txtDictId.setText(String.valueOf(model.getDictId()));
-        for (TagModel aModel : cboTagValue.getItems()) {
-            if (aModel.getTagId() == model.getTagId()) {
-                cboTagValue.setValue(aModel);
-                break;
+        if (model != null) {
+            txtDictId.setText(String.valueOf(model.getDictId()));
+            for (TagModel aModel : cboTagValue.getItems()) {
+                if (aModel.getTagId() == model.getTagId()) {
+                    cboTagValue.setValue(aModel);
+                    break;
+                }
             }
+            txtDictValue.setText(model.getDictValue());
         }
-        txtDictValue.setText(model.getDictValue());
     }
 
     private DictModel getModel() {
