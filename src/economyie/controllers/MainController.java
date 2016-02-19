@@ -1,9 +1,14 @@
 package economyie.controllers;
 
 import economyie.MainApplication;
+import javafx.application.Application;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.GridPane;
+import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 
 import java.io.IOException;
@@ -13,31 +18,24 @@ import java.util.ResourceBundle;
 /**
  * Created by Duong on 17/02/2016.
  */
-public class MainController extends BaseController {
+public class MainController implements Initializable {
 
     @FXML
-    private javafx.scene.control.Menu mnuTraining;
+    BorderPane panMain;
     @FXML
-    private javafx.scene.control.Menu mnuExtraction;
-    @FXML
-    private javafx.scene.control.MenuItem mnuLogin;
-    @FXML
-    private javafx.scene.control.MenuItem mnuLogout;
-    @FXML
-    private BorderPane panMain;
+    HBox boxMenu;
+    private Application application;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        logout();
+        logoutSystem();
         showLogin();
     }
 
     @FXML
-    public void logout() {
-        mnuLogin.setVisible(true);
-        mnuLogout.setVisible(false);
-        mnuTraining.setVisible(false);
-        mnuExtraction.setVisible(false);
+    public void logoutSystem() {
+        boxMenu.setVisible(false);
+        showLogin();
     }
 
     @FXML
@@ -53,10 +51,7 @@ public class MainController extends BaseController {
                 @Override
                 public void onLoginSucceed() {
                     panMain.setCenter(null);
-                    mnuLogin.setVisible(false);
-                    mnuLogout.setVisible(true);
-                    mnuTraining.setVisible(true);
-                    mnuExtraction.setVisible(true);
+                    boxMenu.setVisible(true);
                 }
 
                 @Override
@@ -70,87 +65,36 @@ public class MainController extends BaseController {
     }
 
     @FXML
-    public void showDoc() {
+    public void showTraining() {
         try {
-            URL url = MainApplication.class.getResource("views/doc.fxml");
+            URL url = MainApplication.class.getResource("views/training.fxml");
             FXMLLoader loader = new FXMLLoader(url);
-            VBox pane = loader.load();
+            GridPane pane = loader.load();
             panMain.setCenter(pane);
-            DocController controller = loader.getController();
-            controller.setApplication(application);
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
     @FXML
-    public void showEnt() {
+    public void showExtraction() {
         try {
             URL url = MainApplication.class.getResource("views/ent.fxml");
             FXMLLoader loader = new FXMLLoader(url);
             VBox pane = loader.load();
             panMain.setCenter(pane);
-            EntController controller = loader.getController();
-            controller.setApplication(application);
+            //EntController controller = loader.getController();
+            //controller.setApplication(application);
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    @FXML
-    public void showUrl() {
-        try {
-            URL url = MainApplication.class.getResource("views/url.fxml");
-            FXMLLoader loader = new FXMLLoader(url);
-            VBox pane = loader.load();
-            panMain.setCenter(pane);
-            UrlController controller = loader.getController();
-            controller.setApplication(application);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    public Application getApplication() {
+        return application;
     }
 
-    @FXML
-    public void showTag() {
-        try {
-            URL url = MainApplication.class.getResource("views/tag.fxml");
-            FXMLLoader loader = new FXMLLoader(url);
-            VBox pane = loader.load();
-            panMain.setCenter(pane);
-            TagController controller = loader.getController();
-            controller.setApplication(application);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    public void setApplication(Application application) {
+        this.application = application;
     }
-
-    @FXML
-    public void showDict() {
-        try {
-            URL url = MainApplication.class.getResource("views/dict.fxml");
-            FXMLLoader loader = new FXMLLoader(url);
-            VBox pane = loader.load();
-            panMain.setCenter(pane);
-            DictController controller = loader.getController();
-            controller.setApplication(application);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    @FXML
-    public void showRule() {
-        try {
-            URL url = MainApplication.class.getResource("views/rule.fxml");
-            FXMLLoader loader = new FXMLLoader(url);
-            VBox pane = loader.load();
-            panMain.setCenter(pane);
-            RuleController controller = loader.getController();
-            controller.setApplication(application);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
 }

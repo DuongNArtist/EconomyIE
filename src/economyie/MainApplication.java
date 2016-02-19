@@ -15,6 +15,9 @@ import java.net.URL;
  * Created by Duong on 17/02/2016.
  */
 public class MainApplication extends Application {
+
+    public static String gateHome = "C:\\gate-8.1-build5169-ALL";
+
     public static void main(String[] args) {
         launch(args);
     }

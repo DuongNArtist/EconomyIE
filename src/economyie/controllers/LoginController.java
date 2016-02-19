@@ -1,6 +1,8 @@
 package economyie.controllers;
 
+import javafx.application.Application;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -8,9 +10,10 @@ import java.util.ResourceBundle;
 /**
  * Created by Duong on 17/02/2016.
  */
-public class LoginController extends BaseController {
+public class LoginController implements Initializable {
 
     private LoginCallback loginCallback;
+    private Application application;
 
     public LoginCallback getLoginCallback() {
         return loginCallback;
@@ -30,9 +33,20 @@ public class LoginController extends BaseController {
         loginCallback.onLoginSucceed();
     }
 
+    public Application getApplication() {
+        return application;
+    }
+
+    public void setApplication(Application application) {
+        this.application = application;
+    }
+
     interface LoginCallback {
         void onLoginSucceed();
+
         void onLoginFailed();
-    };
+    }
+
+    ;
 
 }
