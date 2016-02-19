@@ -69,7 +69,7 @@ public class GateController {
             corpus = Factory.newCorpus("Economy");
             FeatureMap params = Factory.newFeatureMap();
             params.put("sourceUrl", url);
-            params.put("preserveOriginalContent", new Boolean(false));
+            params.put("preserveOriginalContent", new Boolean(true));
             params.put("collectRepositioningInfo", new Boolean(true));
             params.put("markupAware", new Boolean(false));
             document = (Document) Factory.createResource("gate.corpora.DocumentImpl", params);
@@ -87,7 +87,7 @@ public class GateController {
             corpus = Factory.newCorpus("Economy");
             FeatureMap params = Factory.newFeatureMap();
             params.put("stringContent", content);
-            params.put("preserveOriginalContent", new Boolean(false));
+            params.put("preserveOriginalContent", new Boolean(true));
             params.put("collectRepositioningInfo", new Boolean(true));
             params.put("markupAware", new Boolean(false));
             document = (Document) Factory.createResource("gate.corpora.DocumentImpl", params);
@@ -125,8 +125,13 @@ public class GateController {
             annotationTypesRequired.add("EnterpriseImport");
             Set<Annotation> annotationRequired =
                     new HashSet<Annotation>(defaultAnnotationSet.get(annotationTypesRequired));
+
             String xmlDocument = doc.toXml(annotationRequired, false);
-            results.add(xmlDocument);
+            StringBuffer buffer =new StringBuffer();
+            buffer.append("<Enterprise>");
+            buffer.append(xmlDocument);
+            buffer.append("</Enterprise>");
+            results.add(buffer.toString());
         }
     }
 
