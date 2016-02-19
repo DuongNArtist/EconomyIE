@@ -2,43 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26bfe03-c68c-4b04-874c-ca468d90155b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/ivy-report.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/uk.ac.gate-gate-core-all.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/uk.ac.gate-gate-core-compile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/uk.ac.gate-gate-core-default.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/uk.ac.gate-gate-core-master.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/uk.ac.gate-gate-core-required.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/uk.ac.gate-gate-core-runtime.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/uk.ac.gate-gate-core-test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/economyie/controllers/ExtractionController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/economyie/controllers/GateController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/economyie/controllers/TrainingController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tokenizer.properties" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/economyie/controllers/BaseController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/economyie/controllers/DictController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/economyie/controllers/DocController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/economyie/controllers/EntController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/economyie/controllers/RuleController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/economyie/controllers/TagController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/economyie/controllers/UrlController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/economyie/controllers/business/DatabaseConnector.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/economyie/controllers/business/DictBusiness.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/economyie/controllers/business/DocBusiness.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/economyie/controllers/business/EntBusiness.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/economyie/controllers/business/RuleBusiness.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/economyie/controllers/business/TagBusiness.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/economyie/controllers/business/UrlBusiness.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/economyie/models/DictModel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/economyie/models/DocModel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/economyie/models/EntModel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/economyie/models/InfoModel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/economyie/models/RuleModel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/economyie/models/TagModel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/economyie/models/UrlModel.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/economyie/utils/DOMParser.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tokenizer.properties" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EconomyIE.iml" afterPath="$PROJECT_DIR$/EconomyIE.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/economyie/MainApplication.java" afterPath="$PROJECT_DIR$/src/economyie/MainApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/economyie/controllers/ExtractionController.java" afterPath="$PROJECT_DIR$/src/economyie/controllers/ExtractionController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/economyie/controllers/GateController.java" afterPath="$PROJECT_DIR$/src/economyie/controllers/GateController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/economyie/controllers/LoginController.java" afterPath="$PROJECT_DIR$/src/economyie/controllers/LoginController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/economyie/controllers/MainController.java" afterPath="$PROJECT_DIR$/src/economyie/controllers/MainController.java" />
     </list>
@@ -62,19 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="training.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/economyie/views/training.fxml">
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="login.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/economyie/views/login.fxml">
           <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
@@ -92,13 +48,12 @@
         <entry file="file://$PROJECT_DIR$/src/economyie/controllers/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
               <folding>
-                <element signature="e#409#410#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
                 <element signature="e#811#812#0" expanded="true" />
-                <element signature="e#870#871#0" expanded="true" />
-                <element signature="e#916#917#0" expanded="true" />
+                <element signature="e#845#846#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,17 +63,40 @@
         <entry file="file://$PROJECT_DIR$/src/economyie/controllers/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-              <folding />
+              <caret line="83" column="42" selection-start-line="83" selection-start-column="42" selection-end-line="83" selection-end-column="42" />
+              <folding>
+                <element signature="e#2708#2709#0" expanded="true" />
+                <element signature="e#2754#2755#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExtractionController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ExtractionController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/economyie/controllers/ExtractionController.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.9348441">
+              <caret line="118" column="43" selection-start-line="118" selection-start-column="43" selection-end-line="118" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1252#1253#0" expanded="true" />
+                <element signature="e#1353#1354#0" expanded="true" />
+                <element signature="e#3727#3728#0" expanded="true" />
+                <element signature="e#4446#4454#0" expanded="true" />
+                <element signature="e#6182#6183#0" expanded="true" />
+                <element signature="e#6216#6217#0" expanded="true" />
+                <element signature="e#6279#6280#0" expanded="true" />
+                <element signature="e#6325#6326#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DOMParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/economyie/utils/DOMParser.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,20 +108,25 @@
         <entry file="file://$PROJECT_DIR$/src/economyie/MainApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-              <folding />
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              <folding>
+                <element signature="e#1477#1478#0" expanded="true" />
+                <element signature="e#1505#1506#0" expanded="true" />
+                <element signature="e#1546#1547#0" expanded="true" />
+                <element signature="e#1580#1581#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="extraction.fxml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="extraction.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/economyie/views/extraction.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
             <state />
           </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12075472">
-              <caret line="6" column="107" selection-start-line="6" selection-start-column="107" selection-end-line="6" selection-end-column="107" />
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-21.76">
+              <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -153,7 +136,7 @@
         <entry file="file://$PROJECT_DIR$/src/economyie/controllers/GateController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="236" column="5" selection-start-line="236" selection-start-column="5" selection-end-line="236" selection-end-column="5" />
+              <caret line="117" column="49" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="49" />
               <folding>
                 <element signature="class#SortedAnnotationList#0;class#GateController#0" expanded="false" />
                 <element signature="method#addSortedExclusive#0;class#SortedAnnotationList#0;class#GateController#0" expanded="false" />
@@ -162,27 +145,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TrainingController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/economyie/controllers/TrainingController.java">
+      <file leaf-file-name="FileURLConnection.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_74/jre/lib/rt.jar!/sun/net/www/protocol/file/FileURLConnection.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="69" column="33" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-4.703704">
+              <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/economyie/views/main.fxml">
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
+      <file leaf-file-name="TrainingController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/economyie/controllers/TrainingController.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-              <folding />
+              <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="88" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -207,7 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/economyie/LoginViewController.java" />
         <option value="$PROJECT_DIR$/src/economyie/controllers/LoginViewController.java" />
         <option value="$PROJECT_DIR$/src/economyie/views/LoginController.java" />
         <option value="$PROJECT_DIR$/src/economyie/viewcontrollers/LoginController.java" />
@@ -248,16 +227,17 @@
         <option value="$PROJECT_DIR$/src/economyie/controllers/UrlController.java" />
         <option value="$PROJECT_DIR$/src/economyie/views/doc.fxml" />
         <option value="$PROJECT_DIR$/src/economyie/controllers/DocController.java" />
-        <option value="$PROJECT_DIR$/src/economyie/controllers/LoginController.java" />
         <option value="$PROJECT_DIR$/src/economyie/views/main.fxml" />
-        <option value="$PROJECT_DIR$/src/economyie/controllers/MainController.java" />
         <option value="$PROJECT_DIR$/src/economyie/controllers/SortedAnnotationList.java" />
-        <option value="$PROJECT_DIR$/src/economyie/controllers/GateController.java" />
-        <option value="$PROJECT_DIR$/src/economyie/MainApplication.java" />
         <option value="$PROJECT_DIR$/src/economyie/views/training.fxml" />
         <option value="$PROJECT_DIR$/src/economyie/controllers/TrainingController.java" />
-        <option value="$PROJECT_DIR$/src/economyie/controllers/ExtractionController.java" />
+        <option value="$PROJECT_DIR$/src/economyie/MainApplication.java" />
+        <option value="$PROJECT_DIR$/src/economyie/controllers/MainController.java" />
+        <option value="$PROJECT_DIR$/src/economyie/controllers/LoginController.java" />
         <option value="$PROJECT_DIR$/src/economyie/views/extraction.fxml" />
+        <option value="$PROJECT_DIR$/src/economyie/controllers/GateController.java" />
+        <option value="$PROJECT_DIR$/src/economyie/utils/DOMParser.java" />
+        <option value="$PROJECT_DIR$/src/economyie/controllers/ExtractionController.java" />
       </list>
     </option>
   </component>
@@ -376,6 +356,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EconomyIE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EconomyIE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="economyie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -394,6 +396,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EconomyIE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EconomyIE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EconomyIE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EconomyIE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsoup-1.8.3.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -409,12 +443,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Duong\IdeaProjects\EconomyIE\src\economyie\controllers" />
-      <recent name="C:\Users\Duong\IdeaProjects\EconomyIE\lib" />
-      <recent name="C:\Users\Duong\IdeaProjects\EconomyIE" />
-      <recent name="C:\Users\Duong\IdeaProjects\EconomyIE\src\economyie\controllers\business" />
-      <recent name="C:\Users\Duong\IdeaProjects\EconomyIE\src\controllers" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Duong\IdeaProjects\EconomyIE\src\economyie\models" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="economyie.controllers.business" />
@@ -422,8 +452,12 @@
       <recent name="economyie.models" />
       <recent name="economyie.viewcontrollers" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Duong\IdeaProjects\EconomyIE\src\economyie\models" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Duong\IdeaProjects\EconomyIE\src\economyie\utils" />
+      <recent name="C:\Users\Duong\IdeaProjects\EconomyIE\lib" />
+      <recent name="C:\Users\Duong\IdeaProjects\EconomyIE\src\economyie\controllers" />
+      <recent name="C:\Users\Duong\IdeaProjects\EconomyIE" />
+      <recent name="C:\Users\Duong\IdeaProjects\EconomyIE\src\economyie\controllers\business" />
     </key>
   </component>
   <component name="RunManager" selected="Application.EconomyIE">
@@ -737,7 +771,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455770096456</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Gate Deploy">
+      <created>1455906169542</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1455906169542</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -746,26 +786,26 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25113463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -784,7 +824,8 @@
     <MESSAGE value="Done Dict, Tag, Url manager" />
     <MESSAGE value="Doing Doc" />
     <MESSAGE value="Done Rule, Ent" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done Rule, Ent" />
+    <MESSAGE value="Gate Deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gate Deploy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -824,11 +865,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
           <folding>
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
             <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -837,7 +877,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding />
+          <folding>
+            <element signature="e#2708#2709#0" expanded="true" />
+            <element signature="e#2754#2755#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -845,7 +888,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding />
+          <folding>
+            <element signature="e#1477#1478#0" expanded="true" />
+            <element signature="e#1505#1506#0" expanded="true" />
+            <element signature="e#1546#1547#0" expanded="true" />
+            <element signature="e#1580#1581#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -920,13 +968,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="30.573298">
           <caret line="744" column="0" selection-start-line="744" selection-start-column="0" selection-end-line="744" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tokenizer.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -934,42 +976,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="592" column="0" selection-start-line="592" selection-start-column="0" selection-end-line="592" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/economyie/views/login.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/economyie/controllers/GateController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="236" column="5" selection-start-line="236" selection-start-column="5" selection-end-line="236" selection-end-column="5" />
-          <folding>
-            <element signature="class#SortedAnnotationList#0;class#GateController#0" expanded="false" />
-            <element signature="method#addSortedExclusive#0;class#SortedAnnotationList#0;class#GateController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/economyie/controllers/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
-          <folding>
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -995,20 +1002,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/economyie/controllers/TrainingController.java">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="file://$PROJECT_DIR$/src/economyie/views/login.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="33" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/gate.jar!/gate/Factory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35774648">
+          <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/MainApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="e#1477#1478#0" expanded="true" />
+            <element signature="e#1505#1506#0" expanded="true" />
+            <element signature="e#1546#1547#0" expanded="true" />
+            <element signature="e#1580#1581#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_74/jre/lib/rt.jar!/sun/net/www/protocol/file/FileURLConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.703704">
+          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1016,29 +1045,84 @@
     <entry file="file://$PROJECT_DIR$/src/economyie/controllers/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding />
+          <caret line="83" column="42" selection-start-line="83" selection-start-column="42" selection-end-line="83" selection-end-column="42" />
+          <folding>
+            <element signature="e#2708#2709#0" expanded="true" />
+            <element signature="e#2754#2755#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/economyie/controllers/ExtractionController.java">
+    <entry file="file://$PROJECT_DIR$/src/economyie/controllers/TrainingController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="88" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/economyie/controllers/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+          <folding>
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/views/extraction.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12075472">
-          <caret line="6" column="107" selection-start-line="6" selection-start-column="107" selection-end-line="6" selection-end-column="107" />
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.76">
+          <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/economyie/controllers/GateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="117" column="49" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="49" />
+          <folding>
+            <element signature="class#SortedAnnotationList#0;class#GateController#0" expanded="false" />
+            <element signature="method#addSortedExclusive#0;class#SortedAnnotationList#0;class#GateController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/economyie/utils/DOMParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/economyie/controllers/ExtractionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9348441">
+          <caret line="118" column="43" selection-start-line="118" selection-start-column="43" selection-end-line="118" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1252#1253#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="e#3727#3728#0" expanded="true" />
+            <element signature="e#4446#4454#0" expanded="true" />
+            <element signature="e#6182#6183#0" expanded="true" />
+            <element signature="e#6216#6217#0" expanded="true" />
+            <element signature="e#6279#6280#0" expanded="true" />
+            <element signature="e#6325#6326#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

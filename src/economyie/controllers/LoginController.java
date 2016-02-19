@@ -1,5 +1,6 @@
 package economyie.controllers;
 
+import economyie.MainApplication;
 import javafx.application.Application;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -46,7 +47,4 @@ public class LoginController implements Initializable {
 
         void onLoginFailed();
     }
-
-    ;
-
 }

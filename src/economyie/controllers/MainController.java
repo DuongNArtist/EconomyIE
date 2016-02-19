@@ -24,7 +24,7 @@ public class MainController implements Initializable {
     BorderPane panMain;
     @FXML
     HBox boxMenu;
-    private Application application;
+    private MainApplication application;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -79,22 +79,22 @@ public class MainController implements Initializable {
     @FXML
     public void showExtraction() {
         try {
-            URL url = MainApplication.class.getResource("views/ent.fxml");
+            URL url = MainApplication.class.getResource("views/extraction.fxml");
             FXMLLoader loader = new FXMLLoader(url);
-            VBox pane = loader.load();
+            GridPane pane = loader.load();
             panMain.setCenter(pane);
-            //EntController controller = loader.getController();
-            //controller.setApplication(application);
+            ExtractionController controller = loader.getController();
+            controller.setApplication(application);
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    public Application getApplication() {
+    public MainApplication getApplication() {
         return application;
     }
 
-    public void setApplication(Application application) {
+    public void setApplication(MainApplication application) {
         this.application = application;
     }
 }

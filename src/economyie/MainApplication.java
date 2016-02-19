@@ -17,6 +17,8 @@ import java.net.URL;
 public class MainApplication extends Application {
 
     public static String gateHome = "C:\\gate-8.1-build5169-ALL";
+    public static String rootHome = System.getProperty("user.dir");
+    public static String userHome = System.getProperty("user.home");
 
     public static void main(String[] args) {
         launch(args);
@@ -41,5 +43,13 @@ public class MainApplication extends Application {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public Stage getStage() {
+        return stage;
+    }
+
+    public void setStage(Stage stage) {
+        this.stage = stage;
     }
 }
