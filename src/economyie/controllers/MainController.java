@@ -1,11 +1,10 @@
 package economyie.controllers;
 
 import economyie.MainApplication;
-import javafx.application.Application;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.control.TextField;
+import javafx.scene.control.Button;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
@@ -24,12 +23,15 @@ public class MainController implements Initializable {
     BorderPane panMain;
     @FXML
     HBox boxMenu;
+    @FXML
+    Button btnLogout;
     private MainApplication application;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        logoutSystem();
-        showLogin();
+        //logoutSystem();
+        //showLogin();
+        btnLogout.setVisible(false);
     }
 
     @FXML

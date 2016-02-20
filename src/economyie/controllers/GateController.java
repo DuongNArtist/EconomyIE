@@ -125,7 +125,6 @@ public class GateController {
             annotationTypesRequired.add("EnterpriseImport");
             Set<Annotation> annotationRequired =
                     new HashSet<Annotation>(defaultAnnotationSet.get(annotationTypesRequired));
-
             String xmlDocument = doc.toXml(annotationRequired, false);
             StringBuffer buffer =new StringBuffer();
             buffer.append("<Enterprise>");

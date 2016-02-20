@@ -16,7 +16,7 @@ import java.net.URL;
  */
 public class MainApplication extends Application {
 
-    public static String gateHome = "C:\\gate-8.1-build5169-ALL";
+    public static String gateHome = "C:\\gate";
     public static String rootHome = System.getProperty("user.dir");
     public static String userHome = System.getProperty("user.home");
 

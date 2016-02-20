@@ -17,13 +17,14 @@ public class EntModel {
     private StringProperty entProfit;
     private StringProperty entImport;
     private StringProperty entExport;
-
+    private IntegerProperty docId;
 
     public EntModel() {
-        this(0, null, null, null, null, null, null, null);
+        this(0, 0, null, null, null, null, null, null, null);
     }
 
-    public EntModel(int entId, String entName, String entOwner, String entAddress, String entProduct, String entProfit, String entImport, String entExport) {
+    public EntModel(int entId, int docId, String entName, String entOwner, String entAddress, String entProduct, String entProfit, String entImport, String entExport) {
+        this.docId = new SimpleIntegerProperty(docId);
         this.entId = new SimpleIntegerProperty(entId);
         this.entName = new SimpleStringProperty(entName);
         this.entOwner = new SimpleStringProperty(entOwner);
@@ -32,6 +33,18 @@ public class EntModel {
         this.entProfit = new SimpleStringProperty(entProfit);
         this.entImport = new SimpleStringProperty(entImport);
         this.entExport = new SimpleStringProperty(entExport);
+    }
+
+    public int getDocId() {
+        return docId.get();
+    }
+
+    public void setDocId(int docId) {
+        this.docId.set(docId);
+    }
+
+    public IntegerProperty docIdProperty() {
+        return docId;
     }
 
     public int getEntId() {

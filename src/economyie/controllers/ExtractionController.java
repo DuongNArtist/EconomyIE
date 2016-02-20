@@ -1,15 +1,17 @@
 package economyie.controllers;
 
 import economyie.MainApplication;
+import economyie.databases.DocBusiness;
 import economyie.databases.EntBusiness;
+import economyie.models.DocModel;
 import economyie.models.EntModel;
-import gate.util.Out;
 import javafx.application.Platform;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.*;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.FileChooser;
 import org.jsoup.Jsoup;
@@ -34,17 +36,19 @@ import java.util.ResourceBundle;
 public class ExtractionController implements Initializable {
 
     @FXML
-    ListView<String> lstFiles;
+    TableColumn fldDocId;
+    @FXML
+    TableColumn fldDocName;
+    @FXML
+    TextField txtDocId;
+    @FXML
+    TextField txtDocName;
+    @FXML
+    TableView<DocModel> tblDocs;
     @FXML
     TextArea txtContent;
     @FXML
-    TextField txtFileName;
-    @FXML
     TextField txtUrl;
-
-    @FXML
-    TextField txtKeyword;
-
     @FXML
     TextField txtEntId;
     @FXML
@@ -61,7 +65,6 @@ public class ExtractionController implements Initializable {
     TextField txtEntExport;
     @FXML
     TextField txtEntImport;
-
     @FXML
     TableColumn fldEntId;
     @FXML
@@ -78,18 +81,18 @@ public class ExtractionController implements Initializable {
     TableColumn fldEntExport;
     @FXML
     TableColumn fldEntImport;
-
     @FXML
     TableView<EntModel> tblEnterprises;
 
-    private ObservableList<String> fileList = FXCollections.observableArrayList();
     private String documentsHome = MainApplication.rootHome + "\\res\\documents";
     private MainApplication application;
     private GateController gateController = null;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        fldEntId.setCellValueFactory(new PropertyValueFactory<EntModel, String>("entId"));
+        fldDocId.setCellValueFactory(new PropertyValueFactory<EntModel, Integer>("docId"));
+        fldDocName.setCellValueFactory(new PropertyValueFactory<EntModel, String>("docName"));
+        fldEntId.setCellValueFactory(new PropertyValueFactory<EntModel, Integer>("entId"));
         fldEntName.setCellValueFactory(new PropertyValueFactory<EntModel, String>("entName"));
         fldEntOwner.setCellValueFactory(new PropertyValueFactory<EntModel, String>("entOwner"));
         fldEntAddress.setCellValueFactory(new PropertyValueFactory<EntModel, String>("entAddress"));
@@ -97,77 +100,92 @@ public class ExtractionController implements Initializable {
         fldEntProfit.setCellValueFactory(new PropertyValueFactory<EntModel, String>("entProfit"));
         fldEntExport.setCellValueFactory(new PropertyValueFactory<EntModel, String>("entExport"));
         fldEntImport.setCellValueFactory(new PropertyValueFactory<EntModel, String>("entImport"));
-        loadEnterprises();
+        loadFiles();
         new Thread(new Runnable() {
             @Override
             public void run() {
                 gateController = GateController.getInstance(MainApplication.gateHome);
             }
         }).start();
-        initFiles();
     }
 
-    private void initFiles() {
-        lstFiles.setItems(fileList);
-        File root = new File(documentsHome);
-        if (root.exists()) {
-            File[] files = root.listFiles();
-            for (File file : files) {
-                fileList.add(file.getName());
-            }
+    private void loadFiles() {
+        tblDocs.setItems(DocBusiness.select("", 0, 10000));
+        System.out.print("Document count = " + tblDocs.getItems().size());
+    }
+
+    private DocModel getDocModel() {
+        DocModel model = new DocModel();
+        model.setDocName(txtDocName.getText().trim());
+        try {
+            model.setDocId(Integer.parseInt(txtDocId.getText().trim()));
+        } catch (NumberFormatException e) {
+            model.setDocId(0);
+        } finally {
+            return model;
         }
     }
 
     @FXML
     void clickDocument() {
-        String fileName = lstFiles.getSelectionModel().getSelectedItem();
-        txtContent.clear();
-        File file = new File(documentsHome + File.separator + fileName);
-        if (file != null) {
-            txtFileName.setText(fileName);
-            txtContent.setText(readDocumentFromFile(file));
+        DocModel model = tblDocs.getSelectionModel().getSelectedItem();
+        if (model != null) {
+            loadEnterprises();
+            txtDocId.setText(String.valueOf(model.getDocId()));
+            txtDocName.setText(model.getDocName());
+            File file = new File(documentsHome + File.separator + model.getDocName());
+            if (file != null && file.exists()) {
+                txtContent.setText(readDocumentFromFile(file));
+            }
         }
     }
 
     @FXML
     void insertDocument() {
-        String fileName = txtFileName.getText().trim();
-        if (fileName.length() > 0 && fileList.indexOf(fileName) < 0) {
+        String fileName = txtDocName.getText().trim();
+        if (fileName.length() > 0 && DocBusiness.insert(getDocModel()) > 0) {
             writeDocumentToFile(txtContent.getText(), fileName);
-            fileList.add(fileName);
-            FXCollections.sort(fileList);
-        } else {
-            Out.prln("File existed!");
+            loadFiles();
         }
     }
 
     @FXML
     void updateDocument() {
-        String fileName = txtFileName.getText().trim();
-        if (fileName.length() > 0 && fileList.indexOf(fileName) >= 0) {
+        String fileName = txtDocName.getText().trim();
+        if (fileName.length() > 0 && DocBusiness.update(getDocModel()) > 0) {
             writeDocumentToFile(txtContent.getText(), fileName);
-        } else {
-            Out.prln("File not found!");
+            loadFiles();
         }
     }
 
     @FXML
     void deleteDocument() {
-        int selected = lstFiles.getSelectionModel().getSelectedIndex();
-        String fileName = lstFiles.getSelectionModel().getSelectedItem();
-        File file = new File(documentsHome + File.separator + fileName);
-        if (file.exists() && selected >= 0) {
-            if (file.delete()) {
-                fileList.remove(selected);
-                txtFileName.clear();
-                txtContent.clear();
+        String fileName = txtDocName.getText().trim();
+        if (fileName.length() > 0 && DocBusiness.delete(getDocModel()) > 0) {
+            File file = new File(documentsHome + File.separator + fileName);
+            if (file != null && file.exists()) {
+                if (file.delete()) {
+                    txtDocId.clear();
+                    txtDocName.clear();
+                    txtContent.clear();
+                }
             }
+            loadFiles();
         }
     }
 
     private EntModel getModel() {
         EntModel model = new EntModel();
-        model.setEntId(Integer.parseInt(txtEntId.getText().trim()));
+        try {
+            model.setEntId(Integer.parseInt(txtEntId.getText().trim()));
+        } catch (NumberFormatException e) {
+            model.setEntId(0);
+        }
+        try {
+            model.setDocId(Integer.parseInt(txtDocId.getText().trim()));
+        } catch (NumberFormatException e) {
+            model.setDocId(0);
+        }
         model.setEntName(txtEntName.getText().trim());
         model.setEntOwner(txtEntOwner.getText().trim());
         model.setEntAddress(txtEntAddress.getText().trim());
@@ -183,7 +201,7 @@ public class ExtractionController implements Initializable {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                tblEnterprises.setItems(EntBusiness.select(txtKeyword.getText().trim(), 0, 10000));
+                tblEnterprises.setItems(EntBusiness.select(txtDocId.getText().trim(), 0, 10000));
                 System.out.println("Table size = " + tblEnterprises.getItems().size());
             }
         }).start();
@@ -273,15 +291,25 @@ public class ExtractionController implements Initializable {
 
     @FXML
     void extractInformation() {
-        gateController.createDocumentFromString(txtContent.getText());
-        gateController.executeAnnie();
-        ArrayList<String> result = new ArrayList<String>();
-        gateController.getResult(result);
-        parseObjectFromXml(result.get(0));
+        int selected = tblDocs.getSelectionModel().getSelectedIndex();
+        if (selected >= 0) {
+            gateController.createDocumentFromString(txtContent.getText());
+            gateController.executeAnnie();
+            ArrayList<String> result = new ArrayList<String>();
+            gateController.getResult(result);
+            parseObjectFromXml(result.get(0));
+        }
     }
 
     private void parseObjectFromXml(String xml) {
         try {
+            EntModel ent = new EntModel();
+            try {
+                ent.setDocId(Integer.parseInt(txtDocId.getText().trim()));
+            } catch (NumberFormatException e) {
+                ent.setDocId(0);
+            }
+            EntBusiness.deleteByDocId(ent);
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document document = builder.parse(new InputSource(new StringReader(xml)));
@@ -348,6 +376,11 @@ public class ExtractionController implements Initializable {
                         importBuffer.append(", ");
                     }
                     entModel.setEntImport(importBuffer.toString());
+                    try {
+                        entModel.setDocId(Integer.parseInt(txtDocId.getText().trim()));
+                    } catch (NumberFormatException e1) {
+                        entModel.setDocId(0);
+                    }
                     if (!entModel.isEmpty()) {
                         EntBusiness.insert(entModel);
                     }

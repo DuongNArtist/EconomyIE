@@ -1,6 +1,6 @@
 package economyie.databases;
 
-import economyie.models.EntModel;
+import economyie.models.DocModel;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
@@ -12,26 +12,20 @@ import java.sql.SQLException;
 /**
  * Created by Duong on 20/02/2016.
  */
-public class EntBusiness {
-    public static final String TABLE = "ent";
+public class DocBusiness {
+    public static final String TABLE = "doc";
     private static Connection connection = null;
 
-    public static ObservableList<EntModel> select(String keyword, int start, int end) {
-        ObservableList<EntModel> models = FXCollections.observableArrayList();
+    public static ObservableList<DocModel> select(String keyword, int start, int end) {
+        ObservableList<DocModel> models = FXCollections.observableArrayList();
         try {
             connection = DatabaseConnector.getConnection();
             String[] params = new String[]{"%" + keyword + "%", String.valueOf(start), String.valueOf(end)};
             ResultSet resultSet = DatabaseConnector.getCallableStatement(connection, "select_" + TABLE, params).executeQuery();
             while (resultSet.next()) {
-                economyie.models.EntModel model = new EntModel();
-                model.setEntId(resultSet.getInt(TABLE + "_id"));
-                model.setEntName(resultSet.getString(TABLE + "_name"));
-                model.setEntOwner(resultSet.getString(TABLE + "_owner"));
-                model.setEntAddress(resultSet.getString(TABLE + "_address"));
-                model.setEntProduct(resultSet.getString(TABLE + "_product"));
-                model.setEntProfit(resultSet.getString(TABLE + "_profit"));
-                model.setEntExport(resultSet.getString(TABLE + "_export"));
-                model.setEntImport(resultSet.getString(TABLE + "_import"));
+                DocModel model = new DocModel();
+                model.setDocId(resultSet.getInt(TABLE + "_id"));
+                model.setDocName(resultSet.getString(TABLE + "_name"));
                 models.add(model);
             }
             DatabaseConnector.closeResultSet(resultSet);
@@ -43,11 +37,11 @@ public class EntBusiness {
         return models;
     }
 
-    public static int insert(EntModel model) {
+    public static int insert(DocModel model) {
         int updated = 0;
         try {
             connection = DatabaseConnector.getConnection();
-            String[] params = new String[]{String.valueOf(model.getDocId()), model.getEntName(), model.getEntOwner(), model.getEntAddress(), model.getEntProduct(), model.getEntProfit(), model.getEntExport(), model.getEntImport()};
+            String[] params = new String[]{model.getDocName()};
             CallableStatement statement = DatabaseConnector.getCallableStatement(connection, "insert_" + TABLE, params);
             updated = statement.executeUpdate();
         } catch (SQLException e) {
@@ -58,11 +52,11 @@ public class EntBusiness {
         return updated;
     }
 
-    public static int update(EntModel model) {
+    public static int update(DocModel model) {
         int updated = 0;
         try {
             connection = DatabaseConnector.getConnection();
-            String[] params = new String[]{String.valueOf(model.getEntId()), model.getEntName(), model.getEntOwner(), model.getEntAddress(), model.getEntProduct(), model.getEntProfit(), model.getEntExport(), model.getEntImport()};
+            String[] params = new String[]{String.valueOf(model.getDocId()), model.getDocName()};
             CallableStatement statement = DatabaseConnector.getCallableStatement(connection, "update_" + TABLE, params);
             updated = statement.executeUpdate();
         } catch (SQLException e) {
@@ -73,11 +67,11 @@ public class EntBusiness {
         return updated;
     }
 
-    public static int delete(EntModel model) {
+    public static int delete(DocModel model) {
         int updated = 0;
         try {
             connection = DatabaseConnector.getConnection();
-            String[] params = new String[]{String.valueOf(model.getEntId())};
+            String[] params = new String[]{String.valueOf(model.getDocId())};
             CallableStatement statement = DatabaseConnector.getCallableStatement(connection, "delete_" + TABLE, params);
             updated = statement.executeUpdate();
         } catch (SQLException e) {
@@ -88,18 +82,4 @@ public class EntBusiness {
         return updated;
     }
 
-    public static int deleteByDocId(EntModel model) {
-        int updated = 0;
-        try {
-            connection = DatabaseConnector.getConnection();
-            String[] params = new String[]{String.valueOf(model.getDocId())};
-            CallableStatement statement = DatabaseConnector.getCallableStatement(connection, "delete_" + TABLE + "_by_doc_id", params);
-            updated = statement.executeUpdate();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        } finally {
-            DatabaseConnector.closeConnection(connection);
-        }
-        return updated;
-    }
 }
