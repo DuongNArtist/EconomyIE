@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="panMain" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="economyie.controllers.MainController">
+   <top>
+      <HBox fx:id="boxMenu" alignment="CENTER" prefWidth="200.0" spacing="5.0" BorderPane.alignment="CENTER">
+         <children>
+          <Button mnemonicParsing="false" onAction="#showTraining" prefWidth="80.0" text="Huấn luyện" />
+            <Button mnemonicParsing="false" onAction="#showExtraction" prefWidth="80.0" text="Trích rút" />
+            <Button fx:id="btnLogout" mnemonicParsing="false" onAction="#logoutSystem" prefWidth="80.0" text="Đăng xuất" />
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </BorderPane.margin>
+      </HBox>
+   </top>
+</BorderPane>

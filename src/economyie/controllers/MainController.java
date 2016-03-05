@@ -29,9 +29,9 @@ public class MainController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        //logoutSystem();
-        //showLogin();
-        btnLogout.setVisible(false);
+        logoutSystem();
+        showLogin();
+        //btnLogout.setVisible(false);
     }
 
     @FXML

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="CENTER" hgap="5.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="economyie.controllers.ExtractionController">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="200.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="600.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+        <Label alignment="CENTER" prefWidth="200.0" text="Văn Bản">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+        <TextArea fx:id="txtContent" prefHeight="200.0" prefWidth="200.0" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <children>
+                <TextField fx:id="txtDocName" prefHeight="25.0" prefWidth="190.0" promptText="Tên văn bản cần lưu..." />
+                <Button mnemonicParsing="false" onAction="#insertDocument" prefWidth="50.0" text="Thêm" />
+                <Button mnemonicParsing="false" onAction="#updateDocument" prefWidth="50.0" text="Sửa" />
+                <Button layoutX="128.0" layoutY="13.0" mnemonicParsing="false" onAction="#extractInformation" prefWidth="80.0" text="Trích rút" />
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0" GridPane.rowIndex="2">
+            <children>
+            <TextField fx:id="txtDocId" editable="false" prefHeight="25.0" prefWidth="100.0" />
+                <Button mnemonicParsing="false" onAction="#deleteDocument" prefWidth="80.0" text="Xóa" />
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+            <children>
+            <Button layoutX="220.0" layoutY="13.0" mnemonicParsing="false" onAction="#updateEnterprise" prefWidth="80.0" text="Sửa" />
+            <Button layoutX="263.0" layoutY="13.0" mnemonicParsing="false" onAction="#deleteEnterprise" prefWidth="80.0" text="Xóa" />
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0" GridPane.columnIndex="1">
+            <children>
+                <TextField fx:id="txtUrl" prefHeight="25.0" prefWidth="210.0" promptText="Nhập đường dẫn văn bản..." />
+                <Button mnemonicParsing="false" onAction="#openFromWeb" prefHeight="25.0" prefWidth="80.0" text="Mở từ Web" />
+            <Button layoutX="333.0" layoutY="13.0" mnemonicParsing="false" onAction="#openFromFile" prefWidth="80.0" text="Mở từ tệp" />
+            </children>
+        </HBox>
+      <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <children>
+            <TableView fx:id="tblEnterprises" onMouseClicked="#clickEnterprise" prefHeight="370.0" prefWidth="600.0">
+              <columns>
+                  <TableColumn fx:id="fldEntId" prefWidth="30.0" text="ID" />
+                <TableColumn fx:id="fldEntName" prefWidth="100.0" text="Doanh Nghiệp" />
+                <TableColumn fx:id="fldEntOwner" text="Chủ Sở Hữu" />
+                  <TableColumn fx:id="fldEntAddress" text="Địa Chỉ" />
+                  <TableColumn fx:id="fldEntProduct" text="Sản Phẩm" />
+                  <TableColumn fx:id="fldEntProfit" prefWidth="70.0" text="Lợi Nhuận" />
+                  <TableColumn fx:id="fldEntExport" prefWidth="70.0" text="Xuất Khẩu" />
+                  <TableColumn fx:id="fldEntImport" prefWidth="70.0" text="Nhập Khẩu" />
+              </columns>
+            </TableView>
+            <GridPane>
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="5.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label text="Doanh nghiệp" GridPane.rowIndex="1" />
+                  <Label text="Chủ sở hữu" GridPane.rowIndex="2" />
+                  <Label text="Xuất khẩu" GridPane.rowIndex="6" />
+                  <Label text="Sản phẩm" GridPane.rowIndex="4" />
+                  <Label text="Địa chỉ" GridPane.rowIndex="3" />
+                  <Label text="Lợi nhuận" GridPane.rowIndex="5" />
+                  <Label text="Nhập khẩu" GridPane.rowIndex="7" />
+                  <TextField fx:id="txtEntName" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <TextField fx:id="txtEntOwner" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <TextField fx:id="txtEntAddress" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <TextField fx:id="txtEntProduct" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <TextField fx:id="txtEntProfit" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <TextField fx:id="txtEntExport" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <TextField fx:id="txtEntImport" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                  <TextField fx:id="txtEntId" editable="false" layoutX="110.0" layoutY="40.0" GridPane.columnIndex="1" />
+               </children>
+            </GridPane>
+         </children>
+      </VBox>
+      <TableView fx:id="tblDocs" onMouseClicked="#clickDocument" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+        <columns>
+          <TableColumn fx:id="fldDocId" prefWidth="30.0" text="ID" />
+          <TableColumn fx:id="fldDocName" prefWidth="165.0" text="Tên Tài Liệu" />
+        </columns>
+      </TableView>
+      <Label alignment="CENTER" layoutX="10.0" layoutY="17.0" prefHeight="17.0" prefWidth="610.0" text="Thông Tin Trích Rút" GridPane.columnIndex="2">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+    </children>
+</GridPane>

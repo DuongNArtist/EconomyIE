@@ -90,6 +90,10 @@ public class ExtractionController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        fldDocId.setVisible(false);
+        fldEntId.setVisible(false);
+        txtDocId.setVisible(false);
+        txtEntId.setVisible(false);
         fldDocId.setCellValueFactory(new PropertyValueFactory<EntModel, Integer>("docId"));
         fldDocName.setCellValueFactory(new PropertyValueFactory<EntModel, String>("docName"));
         fldEntId.setCellValueFactory(new PropertyValueFactory<EntModel, Integer>("entId"));
