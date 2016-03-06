@@ -1,5 +1,6 @@
 package economyie.controllers;
 
+import economyie.MainApplication;
 import gate.*;
 import gate.creole.ExecutionException;
 import gate.creole.ResourceInstantiationException;
@@ -8,8 +9,7 @@ import gate.util.GateException;
 import gate.util.Out;
 import gate.util.persistence.PersistenceManager;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.net.URL;
 import java.util.*;
 
@@ -18,8 +18,23 @@ import java.util.*;
  */
 public class GateController {
 
+    public static String gateMain = MainApplication.gateHome + "\\plugins\\ANNIE\\resources\\NE\\main.jape";
+    public static String extraction = "\n" +
+            "MultiPhase:   TestTheGrammars\n" +
+            "Phases:\n" +
+            "enterprise_address\n" +
+            "enterprise_name\n" +
+            "enterprise_owner\n" +
+            "enterprise_product\n" +
+            "enterprise_profit";
+    public static String training = "\n" +
+            "MultiPhase:   TestTheGrammars\n" +
+            "Phases:\n" +
+            "trainers_address\n" +
+            "trainers_name\n" +
+            "trainers_owner\n" +
+            "trainers_product";
     private static GateController instance = null;
-
     private CorpusController corpusController;
     private Corpus corpus;
 
@@ -33,6 +48,43 @@ public class GateController {
             instance = new GateController(gateHome);
         }
         return instance;
+    }
+
+    public static String getMainContent() {
+        String newLine = System.getProperty("line.separator");
+        StringBuffer buffer = new StringBuffer();
+        File file = new File(gateMain);
+        if (file != null && file.exists()) {
+            try {
+                BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
+                for (String line; (line = bufferedReader.readLine()) != null; ) {
+                    buffer.append(line);
+                    buffer.append(newLine);
+                }
+                bufferedReader.close();
+            } catch (FileNotFoundException e) {
+
+            } catch (IOException e) {
+
+            }
+        }
+        return buffer.toString();
+    }
+
+    public static String setMainContent(String content) {
+        StringBuffer buffer = new StringBuffer();
+        File file = new File(gateMain);
+        if (file != null && file.exists()) {
+            PrintWriter printWriter = null;
+            try {
+                printWriter = new PrintWriter(new FileWriter(file));
+                printWriter.println(content);
+                printWriter.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return buffer.toString();
     }
 
     public void initGate(String gateHome) {
@@ -126,7 +178,29 @@ public class GateController {
             Set<Annotation> annotationRequired =
                     new HashSet<Annotation>(defaultAnnotationSet.get(annotationTypesRequired));
             String xmlDocument = doc.toXml(annotationRequired, false);
-            StringBuffer buffer =new StringBuffer();
+            StringBuffer buffer = new StringBuffer();
+            buffer.append("<Enterprise>");
+            buffer.append(xmlDocument);
+            buffer.append("</Enterprise>");
+            results.add(buffer.toString());
+        }
+    }
+
+    public void getResultTraining(ArrayList<String> results) {
+        Iterator iterator = corpus.iterator();
+        while (iterator.hasNext()) {
+            Document doc = (Document) iterator.next();
+            AnnotationSet defaultAnnotationSet = doc.getAnnotations();
+            Set annotationTypesRequired = new HashSet();
+            annotationTypesRequired.add("Sentence");
+            annotationTypesRequired.add("EnterpriseName");
+            annotationTypesRequired.add("EnterpriseOwner");
+            annotationTypesRequired.add("EnterpriseAddress");
+            annotationTypesRequired.add("EnterpriseProduct");
+            Set<Annotation> annotationRequired =
+                    new HashSet<Annotation>(defaultAnnotationSet.get(annotationTypesRequired));
+            String xmlDocument = doc.toXml(annotationRequired, false);
+            StringBuffer buffer = new StringBuffer();
             buffer.append("<Enterprise>");
             buffer.append(xmlDocument);
             buffer.append("</Enterprise>");

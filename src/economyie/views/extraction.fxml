@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableColumn?>
@@ -35,7 +39,7 @@
                 <TextField fx:id="txtDocName" prefHeight="25.0" prefWidth="190.0" promptText="Tên văn bản cần lưu..." />
                 <Button mnemonicParsing="false" onAction="#insertDocument" prefWidth="50.0" text="Thêm" />
                 <Button mnemonicParsing="false" onAction="#updateDocument" prefWidth="50.0" text="Sửa" />
-                <Button layoutX="128.0" layoutY="13.0" mnemonicParsing="false" onAction="#extractInformation" prefWidth="80.0" text="Trích rút" />
+                <Button fx:id="btnExtract" layoutX="128.0" layoutY="13.0" mnemonicParsing="false" onAction="#extractInformation" prefWidth="80.0" text="Trích rút" />
             </children>
         </HBox>
         <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0" GridPane.rowIndex="2">

@@ -9,7 +9,8 @@
    <top>
       <HBox fx:id="boxMenu" alignment="CENTER" prefWidth="200.0" spacing="5.0" BorderPane.alignment="CENTER">
          <children>
-          <Button mnemonicParsing="false" onAction="#showTraining" prefWidth="80.0" text="Huấn luyện" />
+          <Button mnemonicParsing="false" onAction="#showDictionary" prefWidth="80.0" text="Từ Điển" />
+            <Button layoutX="480.0" layoutY="10.0" mnemonicParsing="false" onAction="#showTraining" prefWidth="80.0" text="Huấn luyện" />
             <Button mnemonicParsing="false" onAction="#showExtraction" prefWidth="80.0" text="Trích rút" />
             <Button fx:id="btnLogout" mnemonicParsing="false" onAction="#logoutSystem" prefWidth="80.0" text="Đăng xuất" />
          </children>

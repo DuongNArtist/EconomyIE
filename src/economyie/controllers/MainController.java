@@ -67,11 +67,23 @@ public class MainController implements Initializable {
     }
 
     @FXML
+    public void showDictionary() {
+        try {
+            URL url = MainApplication.class.getResource("views/dictionary.fxml");
+            FXMLLoader loader = new FXMLLoader(url);
+            GridPane pane = loader.load();
+            panMain.setCenter(pane);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @FXML
     public void showTraining() {
         try {
             URL url = MainApplication.class.getResource("views/training.fxml");
             FXMLLoader loader = new FXMLLoader(url);
-            GridPane pane = loader.load();
+            VBox pane = loader.load();
             panMain.setCenter(pane);
         } catch (IOException e) {
             e.printStackTrace();

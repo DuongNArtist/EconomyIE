@@ -1,7 +1,10 @@
 package economyie;
 
+import economyie.controllers.GateController;
 import economyie.controllers.LoginController;
 import economyie.controllers.MainController;
+import gate.Gate;
+import gate.util.Out;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
