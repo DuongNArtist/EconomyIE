@@ -53,6 +53,12 @@ public class TrainingController implements Initializable {
     ObservableList<String> addresses = FXCollections.observableArrayList();
     ObservableList<String> products = FXCollections.observableArrayList();
     ObservableList<String> docs = FXCollections.observableArrayList();
+
+    private ObservableList<String> dataName = FXCollections.observableArrayList();
+    private ObservableList<String> dataOwner = FXCollections.observableArrayList();
+    private ObservableList<String> dataAddress = FXCollections.observableArrayList();
+    private ObservableList<String> dataProduct = FXCollections.observableArrayList();
+
     private GateController gateController = null;
     private String trainersHome = MainApplication.rootHome + "\\res\\trainers";
 
@@ -68,6 +74,10 @@ public class TrainingController implements Initializable {
                 btnDissect.setDisable(false);
             }
         }).start();
+        readFromFileToList(DictionaryController.enterpriseName, dataName);
+        readFromFileToList(DictionaryController.enterpriseOwner, dataOwner);
+        readFromFileToList(DictionaryController.enterpriseAddress, dataAddress);
+        readFromFileToList(DictionaryController.enterpriseProduct, dataProduct);
         lstName.setItems(names);
         lstOwner.setItems(owners);
         lstAddress.setItems(addresses);
@@ -92,6 +102,22 @@ public class TrainingController implements Initializable {
             PrintWriter printWriter = new PrintWriter(new FileWriter(file));
             printWriter.println(content);
             printWriter.close();
+        } catch (FileNotFoundException e) {
+
+        } catch (IOException e) {
+
+        }
+    }
+
+    private void readFromFileToList(String name, ObservableList<String> data) {
+        try {
+            File file = new File(DictionaryController.gazetteerHome + File.separator + name);
+            BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
+            for (String line; (line = bufferedReader.readLine()) != null; ) {
+                data.add(line);
+            }
+            Out.prln(file + " has " + data.size() + " lines");
+            bufferedReader.close();
         } catch (FileNotFoundException e) {
 
         } catch (IOException e) {
@@ -256,7 +282,9 @@ public class TrainingController implements Initializable {
     @FXML
     void addName() {
         if (names.size() > 0) {
-            writeFromListToFile(DictionaryController.enterpriseName, names);
+            dataName.addAll(names);
+            writeFromListToFile(DictionaryController.enterpriseName, dataName);
+            names.clear();
         }
     }
 
@@ -270,7 +298,11 @@ public class TrainingController implements Initializable {
 
     @FXML
     void addOwner() {
-
+        if (owners.size() > 0) {
+            dataOwner.addAll(owners);
+            writeFromListToFile(DictionaryController.enterpriseOwner, dataOwner);
+            owners.clear();
+        }
     }
 
     @FXML
@@ -283,7 +315,11 @@ public class TrainingController implements Initializable {
 
     @FXML
     void addAddress() {
-
+        if (addresses.size() > 0) {
+            dataAddress.addAll(addresses);
+            writeFromListToFile(DictionaryController.enterpriseAddress, dataAddress);
+            addresses.clear();
+        }
     }
 
     @FXML
@@ -296,7 +332,11 @@ public class TrainingController implements Initializable {
 
     @FXML
     void addProduct() {
-
+        if (products.size() > 0) {
+            dataProduct.addAll(products);
+            writeFromListToFile(DictionaryController.enterpriseProduct, dataProduct);
+            products.clear();
+        }
     }
 
     @FXML

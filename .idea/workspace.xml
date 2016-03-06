@@ -2,467 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26bfe03-c68c-4b04-874c-ca468d90155b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/trainers/no.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/trainers/ok.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/trainers/yes.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/economyie/controllers/DictionaryController.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/CNTT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/DoanhNghiep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/PhamNhatVuong" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/TranDinhLong" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/XuatNhapKhau" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/abbreviations.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/adbc.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/agency.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/airport.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/airports.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/bands.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/cabinet_ministers.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/cdg.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/charities.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/city.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/city_abbreviation.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/city_cap.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/city_lower.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/city_uk.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/city_uk_ambig.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/colours.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/companies_uk.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/companies_uk_lower.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/company.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/company_ambig.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/company_cap.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/company_lower.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/country.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/country_abbrev.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/country_adj.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/country_cap.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/country_code.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/country_lower.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/currency_prefix.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/currency_unit.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/date.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/date_key.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/date_other.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/date_post.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/date_pre.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/date_unit.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/datespan.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/day.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/day_cap.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/department.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/determiner.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/duong.doc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/enterprise_address.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/enterprise_name.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/enterprise_owner.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/enterprise_product.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/enterprise_profit.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/facility.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/facility_key.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/facility_key_ext.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/festival.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/foreign_ministers.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/govern_key.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/cabinet-ministers.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/cabinet-positions.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/constituencies-england.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/constituencies-n.ireland.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/constituencies-scotland.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/constituencies-wales.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/constituencies.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/document-pre.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/document_ending_other.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/executive-agencies-abbreviations.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/executive-agencies-old.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/executive-agencies.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/govt-departments-ministerial-abbreviations.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/govt-departments-ministerial.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/govt-departments-non-ministerial-abbreviations.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/govt-departments-non-ministerial-old.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/govt-departments-non-ministerial.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/govt-responsibility-categories.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/laws.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/legislation-ending.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/legislation-pre.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/list-case-sensitive.def" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/lists.def" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/military-operations-abbrev.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/military-operations.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/ministers-attending-cabinet.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/non-cabinet-minister-posts.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/non-cabinet-ministers.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/org-law.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/org-military.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/org-other.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/org-political.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/project.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/project_keyword.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/public-bodies-non-departmental.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/report-ending.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/title-airforce.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/title-army.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/title-medical.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/title-navy.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/titles-other.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/war_key.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government/wars.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/government_base.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/greeting.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/hour.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/ident_prekey.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/jobtitles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/kim-ngach-thuong-mai-giua-asean-va-do-da-vuot-76-ty-usd.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/lists.def" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/loc_generalkey.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/loc_key.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/loc_other.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/loc_prekey.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/loc_prekey_lower.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/loc_relig.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/mapping.def" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/ministry.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/minutes.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/mlb-teams.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/months.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/months_lower.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/more_company.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/mountain.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/music-artists.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/musical_group.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/nba-teams.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/new_adj.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/newspaper_ending.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/newspapers.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/nfl-teams.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/nguyenduckien" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/non_company.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/nonspec_date.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/not_org.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/number_fold.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/numbers.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/ordinal.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/org_base.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/org_ending.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/org_key.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/org_key_cap.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/org_pre.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/org_spur.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/organization.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/organization_nouns.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/other_people.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/othorg_key.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/percent.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/person_ambig.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/person_ambig.old.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/person_ambig2.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/person_ambig_lower.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/person_celebrity_surname.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/person_ending.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/person_female.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/person_female_ambig.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/person_female_ambig_cap.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/person_female_cap.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/person_female_lower.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/person_female_lower_ambig.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/person_first.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/person_full.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/person_male.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/person_male_ambig.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/person_male_ambig_cap.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/person_male_cap.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/person_male_lower.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/person_male_lower_ambig.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/person_relig.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/person_sci.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/person_spur.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/phone_prefix.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/planet.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/political_party.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/post.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/province.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/province_aa.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/province_ab.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/racecourse.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/radio_stations_uk.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/region.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/region_cap.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/region_uk.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/religious_adj.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/rivers.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/s" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/say.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/sports.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/spur.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/spur_ident.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/state_us.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/state_us_ambig.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/stop.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/street.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/surname_prefix.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/team.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/time.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/time_ampm.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/time_key.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/time_modifier.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/time_unit.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/timeofday.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/times.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/timespan.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/timex_pre.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/timezone.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/title.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/title_female.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/title_lower.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/title_lowercase.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/title_male.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/title_mil.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/title_pol.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/trien-vong-tot-tu-xuat-khau-gao.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/tvcompany.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/university_uk.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/url_key.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/water.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/xuat_sieu.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/xuat_sixeu.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/EconomyIE/documents/year.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/CNTT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/DoanhNghiep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/PhamNhatVuong" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/TranDinhLong" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/XuatNhapKhau" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/abbreviations.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/adbc.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/agency.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/airport.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/airports.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/bands.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/cabinet_ministers.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/cdg.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/charities.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/city.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/city_abbreviation.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/city_cap.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/city_lower.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/city_uk.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/city_uk_ambig.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/colours.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/companies_uk.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/companies_uk_lower.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/company.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/company_ambig.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/company_cap.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/company_lower.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/country.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/country_abbrev.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/country_adj.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/country_cap.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/country_code.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/country_lower.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/currency_prefix.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/currency_unit.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/date.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/date_key.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/date_other.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/date_post.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/date_pre.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/date_unit.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/datespan.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/day.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/day_cap.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/department.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/determiner.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/duong.doc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/enterprise_address.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/enterprise_name.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/enterprise_owner.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/enterprise_product.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/enterprise_profit.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/facility.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/facility_key.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/facility_key_ext.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/festival.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/foreign_ministers.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/govern_key.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/cabinet-ministers.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/cabinet-positions.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/constituencies-england.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/constituencies-n.ireland.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/constituencies-scotland.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/constituencies-wales.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/constituencies.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/document-pre.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/document_ending_other.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/executive-agencies-abbreviations.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/executive-agencies-old.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/executive-agencies.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/govt-departments-ministerial-abbreviations.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/govt-departments-ministerial.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/govt-departments-non-ministerial-abbreviations.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/govt-departments-non-ministerial-old.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/govt-departments-non-ministerial.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/govt-responsibility-categories.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/laws.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/legislation-ending.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/legislation-pre.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/list-case-sensitive.def" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/lists.def" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/military-operations-abbrev.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/military-operations.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/ministers-attending-cabinet.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/non-cabinet-minister-posts.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/non-cabinet-ministers.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/org-law.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/org-military.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/org-other.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/org-political.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/project.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/project_keyword.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/public-bodies-non-departmental.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/report-ending.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/title-airforce.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/title-army.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/title-medical.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/title-navy.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/titles-other.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/war_key.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government/wars.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/government_base.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/greeting.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/hour.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/ident_prekey.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/jobtitles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/kim-ngach-thuong-mai-giua-asean-va-do-da-vuot-76-ty-usd.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/lists.def" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/loc_generalkey.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/loc_key.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/loc_other.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/loc_prekey.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/loc_prekey_lower.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/loc_relig.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/mapping.def" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/ministry.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/minutes.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/mlb-teams.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/months.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/months_lower.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/more_company.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/mountain.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/music-artists.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/musical_group.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/nba-teams.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/new_adj.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/newspaper_ending.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/newspapers.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/nfl-teams.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/nguyenduckien" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/non_company.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/nonspec_date.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/not_org.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/number_fold.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/numbers.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/ordinal.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/org_base.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/org_ending.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/org_key.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/org_key_cap.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/org_pre.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/org_spur.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/organization.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/organization_nouns.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/other_people.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/othorg_key.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/percent.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/person_ambig.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/person_ambig.old.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/person_ambig2.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/person_ambig_lower.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/person_celebrity_surname.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/person_ending.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/person_female.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/person_female_ambig.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/person_female_ambig_cap.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/person_female_cap.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/person_female_lower.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/person_female_lower_ambig.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/person_first.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/person_full.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/person_male.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/person_male_ambig.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/person_male_ambig_cap.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/person_male_cap.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/person_male_lower.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/person_male_lower_ambig.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/person_relig.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/person_sci.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/person_spur.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/phone_prefix.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/planet.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/political_party.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/post.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/province.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/province_aa.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/province_ab.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/racecourse.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/radio_stations_uk.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/region.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/region_cap.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/region_uk.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/religious_adj.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/rivers.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/s" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/say.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/sports.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/spur.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/spur_ident.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/state_us.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/state_us_ambig.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/stop.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/street.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/surname_prefix.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/team.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/time.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/time_ampm.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/time_key.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/time_modifier.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/time_unit.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/timeofday.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/times.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/timespan.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/timex_pre.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/timezone.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/title.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/title_female.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/title_lower.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/title_lowercase.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/title_male.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/title_mil.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/title_pol.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/trien-vong-tot-tu-xuat-khau-gao.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/tvcompany.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/university_uk.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/url_key.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/water.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/xuat_sieu.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/xuat_sixeu.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/documents/year.lst" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/economyie/views/training.fxml" afterPath="$PROJECT_DIR$/src/economyie/views/dictionary.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/MainController.class" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/MainController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/TrainingController.class" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/TrainingController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/MainApplication.class" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/MainApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$1.class" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$2.class" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$3.class" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$4.class" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$5.class" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$6$1.class" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$6$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$6.class" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController.class" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/GateController$SortedAnnotationList.class" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/GateController$SortedAnnotationList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/GateController.class" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/GateController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EconomyIE.iml" afterPath="$PROJECT_DIR$/EconomyIE.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/views/main.fxml" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/views/main.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/views/training.fxml" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/views/training.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/economyie/MainApplication.java" afterPath="$PROJECT_DIR$/src/economyie/MainApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/economyie/controllers/ExtractionController.java" afterPath="$PROJECT_DIR$/src/economyie/controllers/ExtractionController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/economyie/controllers/GateController.java" afterPath="$PROJECT_DIR$/src/economyie/controllers/GateController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/economyie/controllers/MainController.java" afterPath="$PROJECT_DIR$/src/economyie/controllers/MainController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/views/extraction.fxml" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/views/extraction.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/economyie/controllers/TrainingController.java" afterPath="$PROJECT_DIR$/src/economyie/controllers/TrainingController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/economyie/views/extraction.fxml" afterPath="$PROJECT_DIR$/src/economyie/views/extraction.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/economyie/views/main.fxml" afterPath="$PROJECT_DIR$/src/economyie/views/main.fxml" />
     </list>
     <ignored path="EconomyIE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -486,14 +39,14 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="extraction.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/economyie/views/extraction.fxml">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
           <provider editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="112" column="13" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
               <folding />
             </state>
-          </provider>
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-            <state />
           </provider>
         </entry>
       </file>
@@ -520,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TrainingController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TrainingController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/economyie/controllers/TrainingController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="258" column="56" selection-start-line="258" selection-start-column="56" selection-end-line="258" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.29166666">
+              <caret line="287" column="9" selection-start-line="287" selection-start-column="9" selection-end-line="287" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -534,14 +87,14 @@
       </file>
       <file leaf-file-name="training.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/economyie/views/training.fxml">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
           <provider editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
               <folding />
             </state>
-          </provider>
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-            <state />
           </provider>
         </entry>
       </file>
@@ -549,30 +102,33 @@
         <entry file="file://$PROJECT_DIR$/src/economyie/controllers/DictionaryController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="89" selection-end-column="5" />
-              <folding />
+              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="72" selection-end-column="5" />
+              <folding>
+                <element signature="e#4136#4137#0" expanded="true" />
+                <element signature="e#4192#4193#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EntBusiness.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/economyie/databases/EntBusiness.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="90" column="35" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExtractionController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ExtractionController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/economyie/controllers/ExtractionController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0817943">
-              <caret line="98" column="45" selection-start-line="98" selection-start-column="45" selection-end-line="98" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="208" column="21" selection-start-line="208" selection-start-column="21" selection-end-line="208" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EconomyIE.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EconomyIE.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -712,9 +268,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1218,7 +774,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455920474267</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Training is going to done!">
+      <created>1457278807203</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1457278807203</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1267,7 +829,8 @@
     <MESSAGE value="Done Rule, Ent" />
     <MESSAGE value="Gate Deploy" />
     <MESSAGE value="Almost done! But have some issues!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Almost done! But have some issues!" />
+    <MESSAGE value="Training is going to done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Training is going to done!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1285,7 +848,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="132" column="39" selection-start-line="132" selection-start-column="39" selection-end-line="132" selection-end-column="39" />
           <folding>
-            <element signature="e#6420#6432#0" expanded="false" />
             <element signature="class#SortedAnnotationList#0;class#GateController#0" expanded="false" />
             <element signature="method#addSortedExclusive#0;class#SortedAnnotationList#0;class#GateController#0" expanded="false" />
           </folding>
@@ -1293,36 +855,36 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/views/main.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/economyie/views/dictionary.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/economyie/views/dictionary.fxml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/economyie/views/dictionary.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/economyie/views/dictionary.fxml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/controllers/LoginController.java">
@@ -1359,83 +921,27 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="151" column="26" selection-start-line="151" selection-start-column="26" selection-end-line="151" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#647#648#0" expanded="false" />
-            <element signature="e#715#716#0" expanded="false" />
             <element signature="e#1462#1463#0" expanded="true" />
             <element signature="e#1496#1497#0" expanded="true" />
-            <element signature="e#1535#1536#0" expanded="false" />
-            <element signature="e#1572#1573#0" expanded="false" />
-            <element signature="e#1618#1619#0" expanded="false" />
-            <element signature="e#1646#1647#0" expanded="false" />
-            <element signature="e#1675#1676#0" expanded="false" />
-            <element signature="e#1709#1710#0" expanded="false" />
-            <element signature="e#1748#1749#0" expanded="false" />
-            <element signature="e#1785#1786#0" expanded="false" />
-            <element signature="e#1831#1832#0" expanded="false" />
-            <element signature="e#1859#1860#0" expanded="false" />
-            <element signature="e#1893#1894#0" expanded="false" />
-            <element signature="e#1929#1930#0" expanded="false" />
-            <element signature="e#1975#1976#0" expanded="false" />
-            <element signature="e#2016#2017#0" expanded="false" />
-            <element signature="e#2063#2064#0" expanded="false" />
-            <element signature="e#2093#2094#0" expanded="false" />
-            <element signature="e#2128#2129#0" expanded="false" />
-            <element signature="e#2165#2166#0" expanded="false" />
-            <element signature="e#2213#2214#0" expanded="false" />
-            <element signature="e#2256#2257#0" expanded="false" />
-            <element signature="e#2304#2305#0" expanded="false" />
-            <element signature="e#2335#2336#0" expanded="false" />
-            <element signature="e#2372#2373#0" expanded="false" />
-            <element signature="e#2411#2412#0" expanded="false" />
-            <element signature="e#2463#2464#0" expanded="false" />
-            <element signature="e#2510#2511#0" expanded="false" />
-            <element signature="e#2560#2561#0" expanded="false" />
-            <element signature="e#2593#2594#0" expanded="false" />
-            <element signature="e#2630#2631#0" expanded="false" />
-            <element signature="e#2669#2670#0" expanded="false" />
-            <element signature="e#2721#2722#0" expanded="false" />
-            <element signature="e#2768#2769#0" expanded="false" />
-            <element signature="e#2818#2819#0" expanded="false" />
-            <element signature="e#2851#2852#0" expanded="false" />
-            <element signature="e#2887#2888#0" expanded="false" />
-            <element signature="e#2925#2926#0" expanded="false" />
-            <element signature="e#2975#2976#0" expanded="false" />
-            <element signature="e#3020#3021#0" expanded="false" />
-            <element signature="e#3069#3070#0" expanded="false" />
-            <element signature="e#3101#3102#0" expanded="false" />
-            <element signature="e#3137#3138#0" expanded="false" />
-            <element signature="e#3175#3176#0" expanded="false" />
-            <element signature="e#3225#3226#0" expanded="false" />
-            <element signature="e#3270#3271#0" expanded="false" />
-            <element signature="e#3319#3320#0" expanded="false" />
-            <element signature="e#3351#3352#0" expanded="false" />
-            <element signature="e#3387#3388#0" expanded="false" />
-            <element signature="e#3425#3426#0" expanded="false" />
-            <element signature="e#3475#3476#0" expanded="false" />
-            <element signature="e#3520#3521#0" expanded="false" />
-            <element signature="e#3569#3570#0" expanded="false" />
-            <element signature="e#3601#3602#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/views/extraction.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="102" column="13" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/databases/DatabaseConnector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1452,7 +958,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="132" column="39" selection-start-line="132" selection-start-column="39" selection-end-line="132" selection-end-column="39" />
           <folding>
-            <element signature="e#6420#6432#0" expanded="false" />
             <element signature="class#SortedAnnotationList#0;class#GateController#0" expanded="false" />
             <element signature="method#addSortedExclusive#0;class#SortedAnnotationList#0;class#GateController#0" expanded="false" />
           </folding>
@@ -1460,36 +965,36 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/views/main.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/economyie/views/dictionary.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/economyie/views/dictionary.fxml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/economyie/views/login.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/economyie/views/login.fxml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/controllers/LoginController.java">
@@ -1515,15 +1020,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#1544#1545#0" expanded="false" />
-            <element signature="e#1572#1573#0" expanded="false" />
-            <element signature="e#1613#1614#0" expanded="false" />
-            <element signature="e#1647#1648#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1532,7 +1028,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="236" column="5" selection-start-line="236" selection-start-column="5" selection-end-line="236" selection-end-column="5" />
           <folding>
-            <element signature="e#6420#6432#0" expanded="false" />
             <element signature="class#SortedAnnotationList#0;class#GateController#0" expanded="false" />
             <element signature="method#addSortedExclusive#0;class#SortedAnnotationList#0;class#GateController#0" expanded="false" />
           </folding>
@@ -1547,14 +1042,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/views/main.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_74/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
@@ -1645,50 +1140,41 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/views/login.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/databases/DatabaseConnector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/views/dictionary.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/economyie/views/main.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/economyie/views/main.fxml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EconomyIE.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1697,7 +1183,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1705,7 +1190,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1713,7 +1197,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1732,10 +1215,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-          <folding>
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1778,25 +1257,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/views/training.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/economyie/views/extraction.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/economyie/views/extraction.fxml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="112" column="13" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/controllers/MainController.java">
@@ -1807,28 +1286,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/economyie/controllers/DictionaryController.java">
+    <entry file="file://$PROJECT_DIR$/EconomyIE.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="89" selection-end-column="5" />
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/economyie/controllers/TrainingController.java">
+    <entry file="file://$PROJECT_DIR$/src/economyie/controllers/DictionaryController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="258" column="56" selection-start-line="258" selection-start-column="56" selection-end-line="258" selection-end-column="56" />
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="72" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#4136#4137#0" expanded="true" />
+            <element signature="e#4192#4193#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/controllers/ExtractionController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0817943">
-          <caret line="98" column="45" selection-start-line="98" selection-start-column="45" selection-end-line="98" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="208" column="21" selection-start-line="208" selection-start-column="21" selection-end-line="208" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/economyie/controllers/TrainingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29166666">
+          <caret line="287" column="9" selection-start-line="287" selection-start-column="9" selection-end-line="287" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
