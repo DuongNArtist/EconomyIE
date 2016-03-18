@@ -25,7 +25,9 @@ import javax.xml.parsers.ParserConfigurationException;
 import java.io.*;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.ResourceBundle;
+import java.util.Set;
 
 /**
  * Created by Hien on 06/03/2016.
@@ -146,6 +148,10 @@ public class TrainingController implements Initializable {
     }
 
     private void writeFromListToFile(String name, ObservableList<String> data) {
+        Set<String> hashSet = new HashSet<>();
+        hashSet.addAll(data);
+        data.clear();
+        data.addAll(hashSet);
         FXCollections.sort(data);
         try {
             File file = new File(DictionaryController.gazetteerHome + File.separator + name);

@@ -11,7 +11,9 @@ import javafx.scene.control.TextField;
 
 import java.io.*;
 import java.net.URL;
+import java.util.HashSet;
 import java.util.ResourceBundle;
+import java.util.Set;
 
 /**
  * Created by Duong on 19/02/2016.
@@ -73,6 +75,10 @@ public class DictionaryController implements Initializable {
     }
 
     private void writeFromListToFile(String name, ObservableList<String> data) {
+        Set<String> hashSet = new HashSet<>();
+        hashSet.addAll(data);
+        data.clear();
+        data.addAll(hashSet);
         FXCollections.sort(data);
         try {
             File file = new File(gazetteerHome + File.separator + name);

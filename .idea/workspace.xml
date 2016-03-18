@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26bfe03-c68c-4b04-874c-ca468d90155b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/MainApplication.class" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/MainApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$1.class" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$2.class" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$3.class" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$4.class" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$5.class" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$6$1.class" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$6$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$6.class" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController.class" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/ExtractionController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/GateController$SortedAnnotationList.class" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/GateController$SortedAnnotationList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/GateController.class" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/GateController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/TrainingController.class" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/TrainingController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/views/extraction.fxml" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/views/extraction.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/economyie/controllers/DictionaryController.java" afterPath="$PROJECT_DIR$/src/economyie/controllers/DictionaryController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/economyie/controllers/TrainingController.java" afterPath="$PROJECT_DIR$/src/economyie/controllers/TrainingController.java" />
     </list>
     <ignored path="EconomyIE.iws" />
@@ -39,24 +29,14 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="extraction.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/economyie/views/extraction.fxml">
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
           <provider editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="112" column="13" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DocBusiness.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/economyie/databases/DocBusiness.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="75" column="48" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
-              <folding />
-            </state>
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+            <state />
           </provider>
         </entry>
       </file>
@@ -66,8 +46,61 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
-                <element signature="e#1462#1463#0" expanded="true" />
-                <element signature="e#1496#1497#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#647#648#0" expanded="false" />
+                <element signature="e#715#716#0" expanded="false" />
+                <element signature="e#1535#1536#0" expanded="false" />
+                <element signature="e#1572#1573#0" expanded="false" />
+                <element signature="e#1618#1619#0" expanded="false" />
+                <element signature="e#1646#1647#0" expanded="false" />
+                <element signature="e#1675#1676#0" expanded="false" />
+                <element signature="e#1709#1710#0" expanded="false" />
+                <element signature="e#1748#1749#0" expanded="false" />
+                <element signature="e#1785#1786#0" expanded="false" />
+                <element signature="e#1831#1832#0" expanded="false" />
+                <element signature="e#1859#1860#0" expanded="false" />
+                <element signature="e#1893#1894#0" expanded="false" />
+                <element signature="e#1929#1930#0" expanded="false" />
+                <element signature="e#1975#1976#0" expanded="false" />
+                <element signature="e#2016#2017#0" expanded="false" />
+                <element signature="e#2063#2064#0" expanded="false" />
+                <element signature="e#2093#2094#0" expanded="false" />
+                <element signature="e#2128#2129#0" expanded="false" />
+                <element signature="e#2165#2166#0" expanded="false" />
+                <element signature="e#2213#2214#0" expanded="false" />
+                <element signature="e#2256#2257#0" expanded="false" />
+                <element signature="e#2304#2305#0" expanded="false" />
+                <element signature="e#2335#2336#0" expanded="false" />
+                <element signature="e#2372#2373#0" expanded="false" />
+                <element signature="e#2411#2412#0" expanded="false" />
+                <element signature="e#2463#2464#0" expanded="false" />
+                <element signature="e#2510#2511#0" expanded="false" />
+                <element signature="e#2560#2561#0" expanded="false" />
+                <element signature="e#2593#2594#0" expanded="false" />
+                <element signature="e#2630#2631#0" expanded="false" />
+                <element signature="e#2669#2670#0" expanded="false" />
+                <element signature="e#2721#2722#0" expanded="false" />
+                <element signature="e#2768#2769#0" expanded="false" />
+                <element signature="e#2818#2819#0" expanded="false" />
+                <element signature="e#2851#2852#0" expanded="false" />
+                <element signature="e#2887#2888#0" expanded="false" />
+                <element signature="e#2925#2926#0" expanded="false" />
+                <element signature="e#2975#2976#0" expanded="false" />
+                <element signature="e#3020#3021#0" expanded="false" />
+                <element signature="e#3069#3070#0" expanded="false" />
+                <element signature="e#3101#3102#0" expanded="false" />
+                <element signature="e#3137#3138#0" expanded="false" />
+                <element signature="e#3175#3176#0" expanded="false" />
+                <element signature="e#3225#3226#0" expanded="false" />
+                <element signature="e#3270#3271#0" expanded="false" />
+                <element signature="e#3319#3320#0" expanded="false" />
+                <element signature="e#3351#3352#0" expanded="false" />
+                <element signature="e#3387#3388#0" expanded="false" />
+                <element signature="e#3425#3426#0" expanded="false" />
+                <element signature="e#3475#3476#0" expanded="false" />
+                <element signature="e#3520#3521#0" expanded="false" />
+                <element signature="e#3569#3570#0" expanded="false" />
+                <element signature="e#3601#3602#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -76,8 +109,8 @@
       <file leaf-file-name="TrainingController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/economyie/controllers/TrainingController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29166666">
-              <caret line="287" column="9" selection-start-line="287" selection-start-column="9" selection-end-line="287" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.30147058">
+              <caret line="139" column="39" selection-start-line="139" selection-start-column="39" selection-end-line="139" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,14 +120,14 @@
       </file>
       <file leaf-file-name="training.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/economyie/views/training.fxml">
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
           <provider editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
               <folding />
             </state>
+          </provider>
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+            <state />
           </provider>
         </entry>
       </file>
@@ -102,11 +135,8 @@
         <entry file="file://$PROJECT_DIR$/src/economyie/controllers/DictionaryController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="72" selection-end-column="5" />
-              <folding>
-                <element signature="e#4136#4137#0" expanded="true" />
-                <element signature="e#4192#4193#0" expanded="true" />
-              </folding>
+              <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -127,7 +157,17 @@
         <entry file="file://$PROJECT_DIR$/EconomyIE.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Những nhóm mặt hàng nhập khẩu chính tháng 1-2016" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/documents/Những nhóm mặt hàng nhập khẩu chính tháng 1-2016">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -138,7 +178,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="90" column="5" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#2994#2995#0" expanded="false" />
+                <element signature="e#3028#3029#0" expanded="false" />
+                <element signature="e#3091#3092#0" expanded="false" />
+                <element signature="e#3137#3138#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,8 +195,15 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
               <folding>
-                <element signature="e#722#723#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#443#444#0" expanded="false" />
+                <element signature="e#479#480#0" expanded="false" />
+                <element signature="e#544#545#0" expanded="false" />
+                <element signature="e#594#595#0" expanded="false" />
+                <element signature="e#811#812#0" expanded="false" />
+                <element signature="e#845#846#0" expanded="false" />
+                <element signature="e#904#905#0" expanded="false" />
+                <element signature="e#950#951#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -268,9 +321,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -426,9 +478,14 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="documents" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -780,7 +837,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457278807203</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Training done!">
+      <created>1457286305691</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1457286305691</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -830,7 +893,8 @@
     <MESSAGE value="Gate Deploy" />
     <MESSAGE value="Almost done! But have some issues!" />
     <MESSAGE value="Training is going to done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Training is going to done!" />
+    <MESSAGE value="Training done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Training done!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -847,44 +911,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="132" column="39" selection-start-line="132" selection-start-column="39" selection-end-line="132" selection-end-column="39" />
-          <folding>
-            <element signature="class#SortedAnnotationList#0;class#GateController#0" expanded="false" />
-            <element signature="method#addSortedExclusive#0;class#SortedAnnotationList#0;class#GateController#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/views/main.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/economyie/views/dictionary.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/economyie/views/dictionary.fxml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/economyie/views/dictionary.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/economyie/views/dictionary.fxml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/controllers/LoginController.java">
@@ -892,8 +952,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
           <folding>
-            <element signature="e#722#723#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#443#444#0" expanded="false" />
+            <element signature="e#479#480#0" expanded="false" />
+            <element signature="e#544#545#0" expanded="false" />
+            <element signature="e#594#595#0" expanded="false" />
+            <element signature="e#811#812#0" expanded="false" />
+            <element signature="e#845#846#0" expanded="false" />
+            <element signature="e#904#905#0" expanded="false" />
+            <element signature="e#950#951#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -912,7 +979,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2994#2995#0" expanded="false" />
+            <element signature="e#3028#3029#0" expanded="false" />
+            <element signature="e#3091#3092#0" expanded="false" />
+            <element signature="e#3137#3138#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -921,21 +994,74 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="151" column="26" selection-start-line="151" selection-start-column="26" selection-end-line="151" selection-end-column="26" />
           <folding>
-            <element signature="e#1462#1463#0" expanded="true" />
-            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#647#648#0" expanded="false" />
+            <element signature="e#715#716#0" expanded="false" />
+            <element signature="e#1535#1536#0" expanded="false" />
+            <element signature="e#1572#1573#0" expanded="false" />
+            <element signature="e#1618#1619#0" expanded="false" />
+            <element signature="e#1646#1647#0" expanded="false" />
+            <element signature="e#1675#1676#0" expanded="false" />
+            <element signature="e#1709#1710#0" expanded="false" />
+            <element signature="e#1748#1749#0" expanded="false" />
+            <element signature="e#1785#1786#0" expanded="false" />
+            <element signature="e#1831#1832#0" expanded="false" />
+            <element signature="e#1859#1860#0" expanded="false" />
+            <element signature="e#1893#1894#0" expanded="false" />
+            <element signature="e#1929#1930#0" expanded="false" />
+            <element signature="e#1975#1976#0" expanded="false" />
+            <element signature="e#2016#2017#0" expanded="false" />
+            <element signature="e#2063#2064#0" expanded="false" />
+            <element signature="e#2093#2094#0" expanded="false" />
+            <element signature="e#2128#2129#0" expanded="false" />
+            <element signature="e#2165#2166#0" expanded="false" />
+            <element signature="e#2213#2214#0" expanded="false" />
+            <element signature="e#2256#2257#0" expanded="false" />
+            <element signature="e#2304#2305#0" expanded="false" />
+            <element signature="e#2335#2336#0" expanded="false" />
+            <element signature="e#2372#2373#0" expanded="false" />
+            <element signature="e#2411#2412#0" expanded="false" />
+            <element signature="e#2463#2464#0" expanded="false" />
+            <element signature="e#2510#2511#0" expanded="false" />
+            <element signature="e#2560#2561#0" expanded="false" />
+            <element signature="e#2593#2594#0" expanded="false" />
+            <element signature="e#2630#2631#0" expanded="false" />
+            <element signature="e#2669#2670#0" expanded="false" />
+            <element signature="e#2721#2722#0" expanded="false" />
+            <element signature="e#2768#2769#0" expanded="false" />
+            <element signature="e#2818#2819#0" expanded="false" />
+            <element signature="e#2851#2852#0" expanded="false" />
+            <element signature="e#2887#2888#0" expanded="false" />
+            <element signature="e#2925#2926#0" expanded="false" />
+            <element signature="e#2975#2976#0" expanded="false" />
+            <element signature="e#3020#3021#0" expanded="false" />
+            <element signature="e#3069#3070#0" expanded="false" />
+            <element signature="e#3101#3102#0" expanded="false" />
+            <element signature="e#3137#3138#0" expanded="false" />
+            <element signature="e#3175#3176#0" expanded="false" />
+            <element signature="e#3225#3226#0" expanded="false" />
+            <element signature="e#3270#3271#0" expanded="false" />
+            <element signature="e#3319#3320#0" expanded="false" />
+            <element signature="e#3351#3352#0" expanded="false" />
+            <element signature="e#3387#3388#0" expanded="false" />
+            <element signature="e#3425#3426#0" expanded="false" />
+            <element signature="e#3475#3476#0" expanded="false" />
+            <element signature="e#3520#3521#0" expanded="false" />
+            <element signature="e#3569#3570#0" expanded="false" />
+            <element signature="e#3601#3602#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/views/extraction.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="102" column="13" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/databases/DatabaseConnector.java">
@@ -949,7 +1075,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -957,44 +1082,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="132" column="39" selection-start-line="132" selection-start-column="39" selection-end-line="132" selection-end-column="39" />
-          <folding>
-            <element signature="class#SortedAnnotationList#0;class#GateController#0" expanded="false" />
-            <element signature="method#addSortedExclusive#0;class#SortedAnnotationList#0;class#GateController#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/views/main.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/economyie/views/dictionary.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/economyie/views/dictionary.fxml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/economyie/views/login.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/economyie/views/login.fxml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/controllers/LoginController.java">
@@ -1002,8 +1123,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
           <folding>
-            <element signature="e#722#723#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#443#444#0" expanded="false" />
+            <element signature="e#479#480#0" expanded="false" />
+            <element signature="e#544#545#0" expanded="false" />
+            <element signature="e#594#595#0" expanded="false" />
+            <element signature="e#811#812#0" expanded="false" />
+            <element signature="e#845#846#0" expanded="false" />
+            <element signature="e#904#905#0" expanded="false" />
+            <element signature="e#950#951#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1012,7 +1140,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2994#2995#0" expanded="false" />
+            <element signature="e#3028#3029#0" expanded="false" />
+            <element signature="e#3091#3092#0" expanded="false" />
+            <element signature="e#3137#3138#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1027,10 +1161,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="236" column="5" selection-start-line="236" selection-start-column="5" selection-end-line="236" selection-end-column="5" />
-          <folding>
-            <element signature="class#SortedAnnotationList#0;class#GateController#0" expanded="false" />
-            <element signature="method#addSortedExclusive#0;class#SortedAnnotationList#0;class#GateController#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1042,14 +1172,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/views/main.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_74/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
@@ -1112,42 +1242,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#384#385#0" expanded="false" />
-            <element signature="e#413#414#0" expanded="false" />
-            <element signature="e#611#612#0" expanded="false" />
-            <element signature="e#645#646#0" expanded="false" />
-            <element signature="e#684#685#0" expanded="false" />
-            <element signature="e#721#722#0" expanded="false" />
-            <element signature="e#767#768#0" expanded="false" />
-            <element signature="e#795#796#0" expanded="false" />
-            <element signature="e#829#830#0" expanded="false" />
-            <element signature="e#865#866#0" expanded="false" />
-            <element signature="e#911#912#0" expanded="false" />
-            <element signature="e#952#953#0" expanded="false" />
-            <element signature="e#999#1000#0" expanded="false" />
-            <element signature="e#1029#1030#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/DataCrawlers/DataCrawlers/DataCrawlers.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/views/login.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/databases/DatabaseConnector.java">
@@ -1158,25 +1264,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/views/dictionary.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/economyie/views/main.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/economyie/views/main.fxml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/trainers/yes.txt">
@@ -1204,10 +1310,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="197" column="61" selection-start-line="197" selection-start-column="61" selection-end-line="197" selection-end-column="61" />
-          <folding>
-            <element signature="class#SortedAnnotationList#0;class#GateController#0" expanded="false" />
-            <element signature="method#addSortedExclusive#0;class#SortedAnnotationList#0;class#GateController#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1222,7 +1324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="90" column="35" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1239,8 +1340,61 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
-            <element signature="e#1462#1463#0" expanded="true" />
-            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#647#648#0" expanded="false" />
+            <element signature="e#715#716#0" expanded="false" />
+            <element signature="e#1535#1536#0" expanded="false" />
+            <element signature="e#1572#1573#0" expanded="false" />
+            <element signature="e#1618#1619#0" expanded="false" />
+            <element signature="e#1646#1647#0" expanded="false" />
+            <element signature="e#1675#1676#0" expanded="false" />
+            <element signature="e#1709#1710#0" expanded="false" />
+            <element signature="e#1748#1749#0" expanded="false" />
+            <element signature="e#1785#1786#0" expanded="false" />
+            <element signature="e#1831#1832#0" expanded="false" />
+            <element signature="e#1859#1860#0" expanded="false" />
+            <element signature="e#1893#1894#0" expanded="false" />
+            <element signature="e#1929#1930#0" expanded="false" />
+            <element signature="e#1975#1976#0" expanded="false" />
+            <element signature="e#2016#2017#0" expanded="false" />
+            <element signature="e#2063#2064#0" expanded="false" />
+            <element signature="e#2093#2094#0" expanded="false" />
+            <element signature="e#2128#2129#0" expanded="false" />
+            <element signature="e#2165#2166#0" expanded="false" />
+            <element signature="e#2213#2214#0" expanded="false" />
+            <element signature="e#2256#2257#0" expanded="false" />
+            <element signature="e#2304#2305#0" expanded="false" />
+            <element signature="e#2335#2336#0" expanded="false" />
+            <element signature="e#2372#2373#0" expanded="false" />
+            <element signature="e#2411#2412#0" expanded="false" />
+            <element signature="e#2463#2464#0" expanded="false" />
+            <element signature="e#2510#2511#0" expanded="false" />
+            <element signature="e#2560#2561#0" expanded="false" />
+            <element signature="e#2593#2594#0" expanded="false" />
+            <element signature="e#2630#2631#0" expanded="false" />
+            <element signature="e#2669#2670#0" expanded="false" />
+            <element signature="e#2721#2722#0" expanded="false" />
+            <element signature="e#2768#2769#0" expanded="false" />
+            <element signature="e#2818#2819#0" expanded="false" />
+            <element signature="e#2851#2852#0" expanded="false" />
+            <element signature="e#2887#2888#0" expanded="false" />
+            <element signature="e#2925#2926#0" expanded="false" />
+            <element signature="e#2975#2976#0" expanded="false" />
+            <element signature="e#3020#3021#0" expanded="false" />
+            <element signature="e#3069#3070#0" expanded="false" />
+            <element signature="e#3101#3102#0" expanded="false" />
+            <element signature="e#3137#3138#0" expanded="false" />
+            <element signature="e#3175#3176#0" expanded="false" />
+            <element signature="e#3225#3226#0" expanded="false" />
+            <element signature="e#3270#3271#0" expanded="false" />
+            <element signature="e#3319#3320#0" expanded="false" />
+            <element signature="e#3351#3352#0" expanded="false" />
+            <element signature="e#3387#3388#0" expanded="false" />
+            <element signature="e#3425#3426#0" expanded="false" />
+            <element signature="e#3475#3476#0" expanded="false" />
+            <element signature="e#3520#3521#0" expanded="false" />
+            <element signature="e#3569#3570#0" expanded="false" />
+            <element signature="e#3601#3602#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1250,38 +1404,59 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
           <folding>
-            <element signature="e#722#723#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#443#444#0" expanded="false" />
+            <element signature="e#479#480#0" expanded="false" />
+            <element signature="e#544#545#0" expanded="false" />
+            <element signature="e#594#595#0" expanded="false" />
+            <element signature="e#811#812#0" expanded="false" />
+            <element signature="e#845#846#0" expanded="false" />
+            <element signature="e#904#905#0" expanded="false" />
+            <element signature="e#950#951#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/economyie/views/training.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/views/extraction.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="112" column="13" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
           <folding />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/controllers/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="90" column="5" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2994#2995#0" expanded="false" />
+            <element signature="e#3028#3029#0" expanded="false" />
+            <element signature="e#3091#3092#0" expanded="false" />
+            <element signature="e#3137#3138#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/economyie/views/training.fxml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/documents/Những nhóm mặt hàng nhập khẩu chính tháng 1-2016">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1289,19 +1464,8 @@
     <entry file="file://$PROJECT_DIR$/EconomyIE.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/economyie/controllers/DictionaryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="72" selection-end-column="5" />
-          <folding>
-            <element signature="e#4136#4137#0" expanded="true" />
-            <element signature="e#4192#4193#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1315,10 +1479,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/economyie/controllers/DictionaryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/controllers/TrainingController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29166666">
-          <caret line="287" column="9" selection-start-line="287" selection-start-column="9" selection-end-line="287" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.30147058">
+          <caret line="139" column="39" selection-start-line="139" selection-start-column="39" selection-end-line="139" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
