@@ -1,0 +1,10 @@
+Phase:	EnterpriseOwner
+Input: Token Lookup
+Options: control = appelt
+
+Rule: EnterpriseOwner
+(
+	({Lookup.majorType == enterprise, Lookup.minorType == owner})
+):owner
+-->
+:owner.EnterpriseOwner = {kind = "EnterpriseOwner", rule = "EnterpriseOwner"}

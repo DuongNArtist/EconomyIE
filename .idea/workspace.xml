@@ -2,9 +2,261 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26bfe03-c68c-4b04-874c-ca468d90155b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/TrainingController.class" afterPath="$PROJECT_DIR$/out/production/EconomyIE/economyie/controllers/TrainingController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/companies_uk.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/date_other.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/enterprise_name.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/extract_address_quanhuyen.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/extract_address_tinhthanh.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/extract_address_xaphuong.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/constituencies-wales.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/constituencies.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/legislation-pre.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/non-cabinet-ministers.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/wars.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government_base.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/post.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/address.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/clean.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/date.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/date_pre.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/document_date.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/email.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/enterprise_address.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/enterprise_export.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/enterprise_import.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/enterprise_name.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/enterprise_owner.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/enterprise_product.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/enterprise_profit.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/final.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/first.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/firstname.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/gender.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/identifier.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/jobtitle.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/loc_context.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/main-twitter.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/main.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/name-twitter.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/name.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/name_context.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/name_post.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/number.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/number_clean.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/numberletter.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/org_context.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/reldate.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/trainers_address.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/trainers_name.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/trainers_owner.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/trainers_product.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/unknown.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/url.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/NE/url_pre.jape" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/abbreviations.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/adbc.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/agency.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/airport.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/airports.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/bands.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/cabinet_ministers.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/cdg.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/charities.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/city.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/city_abbreviation.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/city_cap.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/city_lower.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/city_uk.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/city_uk_ambig.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/colours.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/companies_uk_lower.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/company.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/company_ambig.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/company_cap.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/company_lower.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/country.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/country_abbrev.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/country_adj.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/country_cap.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/country_code.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/country_lower.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/currency_prefix.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/currency_unit.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/date.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/date_key.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/date_post.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/date_pre.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/date_unit.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/datespan.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/day.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/day_cap.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/department.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/determiner.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/enterprise_address.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/enterprise_owner.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/enterprise_product.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/enterprise_profit.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/extract_name_prefix.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/extract_owner_first.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/extract_product_prefix.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/extract_product_suffix.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/facility.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/facility_key.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/facility_key_ext.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/festival.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/foreign_ministers.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/govern_key.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/cabinet-ministers.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/cabinet-positions.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/constituencies-england.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/constituencies-n.ireland.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/constituencies-scotland.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/document-pre.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/document_ending_other.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/executive-agencies-abbreviations.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/executive-agencies-old.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/executive-agencies.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/govt-departments-ministerial-abbreviations.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/govt-departments-ministerial.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/govt-departments-non-ministerial-abbreviations.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/govt-departments-non-ministerial-old.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/govt-departments-non-ministerial.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/govt-responsibility-categories.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/laws.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/legislation-ending.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/list-case-sensitive.def" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/lists.def" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/military-operations-abbrev.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/military-operations.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/ministers-attending-cabinet.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/non-cabinet-minister-posts.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/org-law.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/org-military.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/org-other.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/org-political.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/project.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/project_keyword.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/public-bodies-non-departmental.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/report-ending.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/title-airforce.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/title-army.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/title-medical.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/title-navy.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/titles-other.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/government/war_key.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/greeting.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/hour.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/ident_prekey.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/jobtitles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/lists.def" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/loc_generalkey.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/loc_key.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/loc_other.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/loc_prekey.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/loc_prekey_lower.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/loc_relig.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/mapping.def" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/ministry.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/minutes.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/mlb-teams.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/months.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/months_lower.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/more_company.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/mountain.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/music-artists.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/musical_group.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/nba-teams.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/new_adj.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/newspaper_ending.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/newspapers.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/nfl-teams.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/non_company.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/nonspec_date.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/not_org.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/number_fold.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/numbers.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/ordinal.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/org_base.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/org_ending.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/org_key.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/org_key_cap.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/org_pre.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/org_spur.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/organization.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/organization_nouns.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/other_people.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/othorg_key.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/percent.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/person_ambig.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/person_ambig.old.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/person_ambig2.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/person_ambig_lower.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/person_celebrity_surname.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/person_ending.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/person_female.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/person_female_ambig.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/person_female_ambig_cap.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/person_female_cap.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/person_female_lower.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/person_female_lower_ambig.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/person_first.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/person_full.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/person_male.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/person_male_ambig.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/person_male_ambig_cap.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/person_male_cap.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/person_male_lower.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/person_male_lower_ambig.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/person_relig.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/person_sci.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/person_spur.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/phone_prefix.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/planet.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/political_party.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/province.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/province_aa.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/province_ab.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/racecourse.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/radio_stations_uk.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/region.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/region_cap.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/region_uk.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/religious_adj.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/rivers.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/say.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/sports.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/spur.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/spur_ident.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/state_us.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/state_us_ambig.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/stop.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/street.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/surname_prefix.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/team.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/time.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/time_ampm.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/time_key.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/time_modifier.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/time_unit.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/timeofday.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/times.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/timespan.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/timex_pre.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/timezone.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/title.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/title_female.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/title_lower.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/title_lowercase.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/title_male.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/title_mil.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/title_pol.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/tvcompany.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/university_uk.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/url_key.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/water.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/gate/gazetteer/year.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/economyie/controllers/DictionaryController.java" afterPath="$PROJECT_DIR$/src/economyie/controllers/DictionaryController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/economyie/controllers/TrainingController.java" afterPath="$PROJECT_DIR$/src/economyie/controllers/TrainingController.java" />
     </list>
     <ignored path="EconomyIE.iws" />
@@ -40,80 +292,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EntModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/economyie/models/EntModel.java">
+      <file leaf-file-name="TrainingController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/economyie/controllers/TrainingController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+              <caret line="139" column="39" selection-start-line="139" selection-start-column="39" selection-end-line="139" selection-end-column="39" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#647#648#0" expanded="false" />
-                <element signature="e#715#716#0" expanded="false" />
-                <element signature="e#1535#1536#0" expanded="false" />
-                <element signature="e#1572#1573#0" expanded="false" />
-                <element signature="e#1618#1619#0" expanded="false" />
-                <element signature="e#1646#1647#0" expanded="false" />
-                <element signature="e#1675#1676#0" expanded="false" />
-                <element signature="e#1709#1710#0" expanded="false" />
-                <element signature="e#1748#1749#0" expanded="false" />
-                <element signature="e#1785#1786#0" expanded="false" />
-                <element signature="e#1831#1832#0" expanded="false" />
-                <element signature="e#1859#1860#0" expanded="false" />
-                <element signature="e#1893#1894#0" expanded="false" />
-                <element signature="e#1929#1930#0" expanded="false" />
-                <element signature="e#1975#1976#0" expanded="false" />
-                <element signature="e#2016#2017#0" expanded="false" />
-                <element signature="e#2063#2064#0" expanded="false" />
-                <element signature="e#2093#2094#0" expanded="false" />
-                <element signature="e#2128#2129#0" expanded="false" />
-                <element signature="e#2165#2166#0" expanded="false" />
-                <element signature="e#2213#2214#0" expanded="false" />
-                <element signature="e#2256#2257#0" expanded="false" />
-                <element signature="e#2304#2305#0" expanded="false" />
-                <element signature="e#2335#2336#0" expanded="false" />
-                <element signature="e#2372#2373#0" expanded="false" />
-                <element signature="e#2411#2412#0" expanded="false" />
-                <element signature="e#2463#2464#0" expanded="false" />
-                <element signature="e#2510#2511#0" expanded="false" />
-                <element signature="e#2560#2561#0" expanded="false" />
-                <element signature="e#2593#2594#0" expanded="false" />
-                <element signature="e#2630#2631#0" expanded="false" />
-                <element signature="e#2669#2670#0" expanded="false" />
-                <element signature="e#2721#2722#0" expanded="false" />
-                <element signature="e#2768#2769#0" expanded="false" />
-                <element signature="e#2818#2819#0" expanded="false" />
-                <element signature="e#2851#2852#0" expanded="false" />
-                <element signature="e#2887#2888#0" expanded="false" />
-                <element signature="e#2925#2926#0" expanded="false" />
-                <element signature="e#2975#2976#0" expanded="false" />
-                <element signature="e#3020#3021#0" expanded="false" />
-                <element signature="e#3069#3070#0" expanded="false" />
-                <element signature="e#3101#3102#0" expanded="false" />
-                <element signature="e#3137#3138#0" expanded="false" />
-                <element signature="e#3175#3176#0" expanded="false" />
-                <element signature="e#3225#3226#0" expanded="false" />
-                <element signature="e#3270#3271#0" expanded="false" />
-                <element signature="e#3319#3320#0" expanded="false" />
-                <element signature="e#3351#3352#0" expanded="false" />
-                <element signature="e#3387#3388#0" expanded="false" />
-                <element signature="e#3425#3426#0" expanded="false" />
-                <element signature="e#3475#3476#0" expanded="false" />
-                <element signature="e#3520#3521#0" expanded="false" />
-                <element signature="e#3569#3570#0" expanded="false" />
-                <element signature="e#3601#3602#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TrainingController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/economyie/controllers/TrainingController.java">
+      <file leaf-file-name="url.jape" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/gate/NE/url.jape">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30147058">
-              <caret line="139" column="39" selection-start-line="139" selection-start-column="39" selection-end-line="139" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -479,6 +675,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="gate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EconomyIE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EconomyIE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EconomyIE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EconomyIE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="documents" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -497,12 +733,8 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/DataCrawlers/DataCrawlers" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Hien\Desktop\EconomyIE\res\trainers" />
-      <recent name="C:\Users\Duong\IdeaProjects\EconomyIE\lib" />
-      <recent name="C:\Users\Duong\IdeaProjects\EconomyIE\src\economyie\utils" />
-      <recent name="C:\Users\Duong\IdeaProjects\EconomyIE\src\economyie\controllers" />
-      <recent name="C:\Users\Duong\IdeaProjects\EconomyIE" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Duong\IdeaProjects\EconomyIE\src\economyie\models" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="economyie.controllers.business" />
@@ -510,8 +742,12 @@
       <recent name="economyie.models" />
       <recent name="economyie.viewcontrollers" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Duong\IdeaProjects\EconomyIE\src\economyie\models" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hien\Desktop\EconomyIE\res\gate" />
+      <recent name="C:\Users\Hien\Desktop\EconomyIE\res\trainers" />
+      <recent name="C:\Users\Duong\IdeaProjects\EconomyIE\lib" />
+      <recent name="C:\Users\Duong\IdeaProjects\EconomyIE\src\economyie\utils" />
+      <recent name="C:\Users\Duong\IdeaProjects\EconomyIE\src\economyie\controllers" />
     </key>
   </component>
   <component name="RunManager" selected="Application.EconomyIE">
@@ -695,6 +931,18 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -843,7 +1091,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457286305691</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="remove duplicate">
+      <created>1458326635994</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1458326635994</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -894,7 +1148,8 @@
     <MESSAGE value="Almost done! But have some issues!" />
     <MESSAGE value="Training is going to done!" />
     <MESSAGE value="Training done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Training done!" />
+    <MESSAGE value="remove duplicate" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove duplicate" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -907,13 +1162,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/economyie/controllers/GateController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="132" column="39" selection-start-line="132" selection-start-column="39" selection-end-line="132" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/views/main.fxml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1489,11 +1737,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/economyie/controllers/TrainingController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30147058">
+        <state vertical-scroll-proportion="0.0">
           <caret line="139" column="39" selection-start-line="139" selection-start-column="39" selection-end-line="139" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/gate/NE/url.jape">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,10 @@
+Phase:	EnterpriseProduct
+Input: Token Lookup
+Options: control = appelt
+
+Rule: EnterpriseProduct
+({Lookup.majorType == product, Lookup.minorType == prefix})
++:product
+{Lookup.majorType == product, Lookup.minorType == suffix}
+-->
+:product.EnterpriseProduct = {kind = "EnterpriseProduct", rule = "EnterpriseProduct"}

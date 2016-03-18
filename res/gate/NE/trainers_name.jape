@@ -1,0 +1,16 @@
+Phase:	EnterpriseName
+Input: Token Lookup
+Options: control = brill
+
+Rule: EnterpriseName
+(
+	(({Lookup.majorType == name, Lookup.minorType == prefix})
+	(({Token.orth == allCaps}) +)) |
+	(({Lookup.majorType == name, Lookup.minorType == prefix})
+	(({Token.orth == upperInitial}) +)) |
+	(({Lookup.majorType == name, Lookup.minorType == prefix})
+	(({Token.orth == allCaps}) +) ?
+	(({Token.orth == upperInitial}) +))
+):name
+-->
+:name.EnterpriseName = {kind = "EnterpriseName", rule = "EnterpriseName"}

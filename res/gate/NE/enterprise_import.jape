@@ -1,0 +1,24 @@
+Phase:	EnterpriseProfit
+Input: Token Lookup
+Options: control = appelt
+
+Macro: AMOUNT_NUMBER
+(
+	({Token.kind == number}) | ({Token.kind == number} ({Token.string == "."} | {Token.string == ","}) {Token.kind == number})
+)
+
+Macro: VIETNAMESE_UNIT
+(
+	{Token.string == "nghìn"} |
+	{Token.string == "triệu"} |
+	{Token.string == "tỷ"}
+)
+
+Rule: EnterpriseProfit
+(	
+	AMOUNT_NUMBER
+	VIETNAMESE_UNIT?
+    ({Lookup.majorType == currency_unit,Lookup.minorType == post_amount})
+):profit
+-->
+:profit.EnterpriseProfit = {kind = "EnterpriseProfit", rule = "EnterpriseProfit"}
