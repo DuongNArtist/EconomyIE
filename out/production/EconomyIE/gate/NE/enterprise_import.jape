@@ -1,0 +1,14 @@
+Phase:	EnterpriseImport
+Input: Token Lookup SpaceToken
+Options: control = appelt
+
+Rule: EnterpriseImport
+(	
+	(
+		{Token.string == "nhập"}
+		{SpaceToken.string == " "}
+		{Token.string == "khẩu"}
+	)
+):import
+-->
+:import.EnterpriseImport = {kind = "EnterpriseImport", rule = "EnterpriseImport"}

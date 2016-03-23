@@ -19,21 +19,6 @@ import java.util.*;
 public class GateController {
 
     public static String gateMain = MainApplication.gateHome + "\\plugins\\ANNIE\\resources\\NE\\main.jape";
-    public static String extraction = "\n" +
-            "MultiPhase:   TestTheGrammars\n" +
-            "Phases:\n" +
-            "enterprise_address\n" +
-            "enterprise_name\n" +
-            "enterprise_owner\n" +
-            "enterprise_product\n" +
-            "enterprise_profit";
-    public static String training = "\n" +
-            "MultiPhase:   TestTheGrammars\n" +
-            "Phases:\n" +
-            "trainers_address\n" +
-            "trainers_name\n" +
-            "trainers_owner\n" +
-            "trainers_product";
     private static GateController instance = null;
     private CorpusController corpusController;
     private Corpus corpus;

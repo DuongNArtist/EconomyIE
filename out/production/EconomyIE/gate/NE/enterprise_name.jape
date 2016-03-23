@@ -1,0 +1,10 @@
+Phase:	EnterpriseName
+Input: Token Lookup
+Options: control = appelt
+
+Rule: EnterpriseName
+(
+	({Lookup.majorType == enterprise, Lookup.minorType == name})
+):name
+-->
+:name.EnterpriseName = {kind = "EnterpriseName", rule = "EnterpriseName"}

@@ -30,8 +30,6 @@ public class EntBusiness {
                 model.setEntAddress(resultSet.getString(TABLE + "_address"));
                 model.setEntProduct(resultSet.getString(TABLE + "_product"));
                 model.setEntProfit(resultSet.getString(TABLE + "_profit"));
-                model.setEntExport(resultSet.getString(TABLE + "_export"));
-                model.setEntImport(resultSet.getString(TABLE + "_import"));
                 models.add(model);
             }
             DatabaseConnector.closeResultSet(resultSet);
@@ -47,7 +45,7 @@ public class EntBusiness {
         int updated = 0;
         try {
             connection = DatabaseConnector.getConnection();
-            String[] params = new String[]{String.valueOf(model.getDocId()), model.getEntName(), model.getEntOwner(), model.getEntAddress(), model.getEntProduct(), model.getEntProfit(), model.getEntExport(), model.getEntImport()};
+            String[] params = new String[]{String.valueOf(model.getDocId()), model.getEntName(), model.getEntOwner(), model.getEntAddress(), model.getEntProduct(), model.getEntProfit()};
             CallableStatement statement = DatabaseConnector.getCallableStatement(connection, "insert_" + TABLE, params);
             updated = statement.executeUpdate();
         } catch (SQLException e) {
@@ -62,7 +60,7 @@ public class EntBusiness {
         int updated = 0;
         try {
             connection = DatabaseConnector.getConnection();
-            String[] params = new String[]{String.valueOf(model.getEntId()), model.getEntName(), model.getEntOwner(), model.getEntAddress(), model.getEntProduct(), model.getEntProfit(), model.getEntExport(), model.getEntImport()};
+            String[] params = new String[]{String.valueOf(model.getEntId()), model.getEntName(), model.getEntOwner(), model.getEntAddress(), model.getEntProduct(), model.getEntProfit()};
             CallableStatement statement = DatabaseConnector.getCallableStatement(connection, "update_" + TABLE, params);
             updated = statement.executeUpdate();
         } catch (SQLException e) {

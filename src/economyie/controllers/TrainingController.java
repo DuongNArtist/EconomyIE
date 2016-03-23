@@ -70,8 +70,6 @@ public class TrainingController implements Initializable {
             @Override
             public void run() {
                 btnDissect.setDisable(true);
-                gateController = null;
-                GateController.setMainContent(GateController.training);
                 gateController = GateController.getInstance(MainApplication.gateHome);
                 btnDissect.setDisable(false);
             }

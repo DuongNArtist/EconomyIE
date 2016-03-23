@@ -15,15 +15,13 @@ public class EntModel {
     private StringProperty entAddress;
     private StringProperty entProduct;
     private StringProperty entProfit;
-    private StringProperty entImport;
-    private StringProperty entExport;
     private IntegerProperty docId;
 
     public EntModel() {
-        this(0, 0, null, null, null, null, null, null, null);
+        this(0, 0, null, null, null, null, null);
     }
 
-    public EntModel(int entId, int docId, String entName, String entOwner, String entAddress, String entProduct, String entProfit, String entImport, String entExport) {
+    public EntModel(int entId, int docId, String entName, String entOwner, String entAddress, String entProduct, String entProfit) {
         this.docId = new SimpleIntegerProperty(docId);
         this.entId = new SimpleIntegerProperty(entId);
         this.entName = new SimpleStringProperty(entName);
@@ -31,8 +29,6 @@ public class EntModel {
         this.entAddress = new SimpleStringProperty(entAddress);
         this.entProduct = new SimpleStringProperty(entProduct);
         this.entProfit = new SimpleStringProperty(entProfit);
-        this.entImport = new SimpleStringProperty(entImport);
-        this.entExport = new SimpleStringProperty(entExport);
     }
 
     public int getDocId() {
@@ -119,30 +115,6 @@ public class EntModel {
         return entProfit;
     }
 
-    public String getEntImport() {
-        return entImport.get();
-    }
-
-    public void setEntImport(String entImport) {
-        this.entImport.set(entImport);
-    }
-
-    public StringProperty entImportProperty() {
-        return entImport;
-    }
-
-    public String getEntExport() {
-        return entExport.get();
-    }
-
-    public void setEntExport(String entExport) {
-        this.entExport.set(entExport);
-    }
-
-    public StringProperty entExportProperty() {
-        return entExport;
-    }
-
     public boolean isEmpty() {
         if (getEntName().length() > 0) {
             return false;
@@ -157,12 +129,6 @@ public class EntModel {
             return false;
         }
         if (getEntProduct().length() > 0) {
-            return false;
-        }
-        if (getEntExport().length() > 0) {
-            return false;
-        }
-        if (getEntImport().length() > 0) {
             return false;
         }
         return true;

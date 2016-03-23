@@ -1,10 +1,19 @@
 Phase:	EnterpriseName
-Input: Token Lookup
+Input: Token Lookup SpaceToken
 Options: control = appelt
 
 Rule: EnterpriseName
 (
 	({Lookup.majorType == enterprise, Lookup.minorType == name})
+):name |
+(
+	(
+		({Lookup.majorType == name, Lookup.minorType == prefix})
+		(
+			{SpaceToken}
+			({Token.orth == upperInitial}) | ({Token.orth == allCaps}) | ({Token.length > 1})
+		) *
+	)
 ):name
 -->
 :name.EnterpriseName = {kind = "EnterpriseName", rule = "EnterpriseName"}

@@ -59,10 +59,6 @@ public class ExtractionController implements Initializable {
     @FXML
     TextField txtEntProfit;
     @FXML
-    TextField txtEntExport;
-    @FXML
-    TextField txtEntImport;
-    @FXML
     TableColumn fldEntId;
     @FXML
     TableColumn fldEntName;
@@ -74,10 +70,6 @@ public class ExtractionController implements Initializable {
     TableColumn fldEntProduct;
     @FXML
     TableColumn fldEntProfit;
-    @FXML
-    TableColumn fldEntExport;
-    @FXML
-    TableColumn fldEntImport;
     @FXML
     TableView<EntModel> tblEnterprises;
     @FXML
@@ -93,8 +85,6 @@ public class ExtractionController implements Initializable {
             @Override
             public void run() {
                 btnExtract.setDisable(true);
-                gateController = null;
-                GateController.setMainContent(GateController.extraction);
                 gateController = GateController.getInstance(MainApplication.gateHome);
                 btnExtract.setDisable(false);
             }
@@ -111,8 +101,6 @@ public class ExtractionController implements Initializable {
         fldEntAddress.setCellValueFactory(new PropertyValueFactory<EntModel, String>("entAddress"));
         fldEntProduct.setCellValueFactory(new PropertyValueFactory<EntModel, String>("entProduct"));
         fldEntProfit.setCellValueFactory(new PropertyValueFactory<EntModel, String>("entProfit"));
-        fldEntExport.setCellValueFactory(new PropertyValueFactory<EntModel, String>("entExport"));
-        fldEntImport.setCellValueFactory(new PropertyValueFactory<EntModel, String>("entImport"));
         loadFiles();
     }
 
@@ -198,8 +186,6 @@ public class ExtractionController implements Initializable {
         model.setEntAddress(txtEntAddress.getText().trim());
         model.setEntProduct(txtEntProduct.getText().trim());
         model.setEntProfit(txtEntProfit.getText().trim());
-        model.setEntExport(txtEntExport.getText().trim());
-        model.setEntImport(txtEntImport.getText().trim());
         return model;
     }
 
@@ -224,8 +210,6 @@ public class ExtractionController implements Initializable {
             txtEntAddress.setText(model.getEntAddress());
             txtEntProduct.setText(model.getEntProduct());
             txtEntProfit.setText(model.getEntProfit());
-            txtEntExport.setText(model.getEntExport());
-            txtEntImport.setText(model.getEntImport());
         }
     }
 
@@ -298,6 +282,7 @@ public class ExtractionController implements Initializable {
 
     @FXML
     void extractInformation() {
+        System.out.println("Extract");
         int selected = tblDocs.getSelectionModel().getSelectedIndex();
         if (selected >= 0) {
             gateController.createDocumentFromString(txtContent.getText());
@@ -367,22 +352,6 @@ public class ExtractionController implements Initializable {
                         profitBuffer.append(", ");
                     }
                     entModel.setEntProfit(profitBuffer.toString());
-
-                    StringBuffer exportBuffer = new StringBuffer();
-                    NodeList exportNode = e.getElementsByTagName("EnterpriseExport");
-                    for (int j = 0; j < exportNode.getLength(); j++) {
-                        exportBuffer.append(exportNode.item(j).getTextContent());
-                        exportBuffer.append(", ");
-                    }
-                    entModel.setEntExport(exportBuffer.toString());
-
-                    StringBuffer importBuffer = new StringBuffer();
-                    NodeList importNode = e.getElementsByTagName("EnterpriseImport");
-                    for (int j = 0; j < importNode.getLength(); j++) {
-                        importBuffer.append(importNode.item(j).getTextContent());
-                        importBuffer.append(", ");
-                    }
-                    entModel.setEntImport(importBuffer.toString());
                     try {
                         entModel.setDocId(Integer.parseInt(txtDocId.getText().trim()));
                     } catch (NumberFormatException e1) {

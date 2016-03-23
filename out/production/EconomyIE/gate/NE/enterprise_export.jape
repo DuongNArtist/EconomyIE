@@ -1,0 +1,14 @@
+Phase:	EnterpriseExport
+Input: Token Lookup SpaceToken
+Options: control = appelt
+
+Rule: EnterpriseExport
+(	
+	(
+		{Token.string == "xuất"}
+		{SpaceToken.string == " "}
+		{Token.string == "khẩu"}
+	)
+):export
+-->
+:export.EnterpriseExport = {kind = "EnterpriseExport", rule = "EnterpriseExport"}

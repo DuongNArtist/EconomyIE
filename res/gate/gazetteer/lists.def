@@ -121,9 +121,6 @@ enterprise_owner.lst:enterprise:owner
 enterprise_product.lst:enterprise:product
 enterprise_profit.lst:enterprise:profit
 extract_product_prefix.lst:product:prefix
-extract_product_suffix.lst:product:suffix
 extract_owner_first.lst:owner:first
 extract_name_prefix.lst:name:prefix
-extract_address_tinhthanh.lst:address:tinhthanh
-extract_address_quanhuyen.lst:address:quanhuyen
-extract_address_xaphuong.lst:address:xaphuong
+extract_owner_prefix.lst:owner:prefix

@@ -4,38 +4,29 @@ Options: control = appelt
 
 Rule: EnterpriseOwner
 (
+	({Lookup.majorType == owner, Lookup.minorType == first})
 	(
-		{Lookup.majorType == owner, Lookup.minorType == first}
 		{SpaceToken}
 		{Token.orth == upperInitial}
-		{SpaceToken}
-		{Token.orth == upperInitial}
-		{SpaceToken}
-		{Token.orth == upperInitial}
-		{SpaceToken}
-		{Token.orth == upperInitial}
-	) |
+	) +
+):owner |
+(
+	({Lookup.majorType == owner, Lookup.minorType == prefix})
 	(
-		{Lookup.majorType == owner, Lookup.minorType == first}
-		{SpaceToken}
-		{Token.orth == upperInitial}
-		{SpaceToken}
-		{Token.orth == upperInitial}
-		{SpaceToken}
-		{Token.orth == upperInitial}
-	) |
+		(
+			{SpaceToken}
+			{Token.orth == upperInitial}
+		) *
+	):owner
+) |
+(
+	({Lookup.majorType == owner, Lookup.minorType == prefix})
 	(
-		{Lookup.majorType == owner, Lookup.minorType == first}
-		{SpaceToken}
-		{Token.orth == upperInitial}
-		{SpaceToken}
-		{Token.orth == upperInitial}
-	) |
-	(
-		{Lookup.majorType == owner, Lookup.minorType == first}
-		{SpaceToken}
-		{Token.orth == upperInitial}
-	)
-):owner
+		(
+			{SpaceToken}
+			{Token.orth == allCaps}
+		) *
+	):owner
+)
 -->
 :owner.EnterpriseOwner = {kind = "EnterpriseOwner", rule = "EnterpriseOwner"}

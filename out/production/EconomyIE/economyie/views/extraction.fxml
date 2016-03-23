@@ -63,16 +63,14 @@
         </HBox>
       <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
          <children>
-            <TableView fx:id="tblEnterprises" onMouseClicked="#clickEnterprise" prefHeight="370.0" prefWidth="600.0">
+            <TableView fx:id="tblEnterprises" onMouseClicked="#clickEnterprise" prefHeight="420.0" prefWidth="600.0">
               <columns>
                   <TableColumn fx:id="fldEntId" prefWidth="30.0" text="ID" />
-                <TableColumn fx:id="fldEntName" prefWidth="100.0" text="Doanh Nghiệp" />
-                <TableColumn fx:id="fldEntOwner" text="Chủ Sở Hữu" />
-                  <TableColumn fx:id="fldEntAddress" text="Địa Chỉ" />
-                  <TableColumn fx:id="fldEntProduct" text="Sản Phẩm" />
-                  <TableColumn fx:id="fldEntProfit" prefWidth="70.0" text="Lợi Nhuận" />
-                  <TableColumn fx:id="fldEntExport" prefWidth="70.0" text="Xuất Khẩu" />
-                  <TableColumn fx:id="fldEntImport" prefWidth="70.0" text="Nhập Khẩu" />
+                <TableColumn fx:id="fldEntName" prefWidth="120.0" text="Doanh Nghiệp" />
+                <TableColumn fx:id="fldEntOwner" prefWidth="120.0" text="Chủ Sở Hữu" />
+                  <TableColumn fx:id="fldEntAddress" prefWidth="100.0" text="Địa Chỉ" />
+                  <TableColumn fx:id="fldEntProduct" minWidth="0.0" prefWidth="120.0" text="Sản Phẩm" />
+                  <TableColumn fx:id="fldEntProfit" prefWidth="108.0" text="Lợi Nhuận" />
               </columns>
             </TableView>
             <GridPane>
@@ -87,24 +85,18 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
                   <Label text="Doanh nghiệp" GridPane.rowIndex="1" />
                   <Label text="Chủ sở hữu" GridPane.rowIndex="2" />
-                  <Label text="Xuất khẩu" GridPane.rowIndex="6" />
                   <Label text="Sản phẩm" GridPane.rowIndex="4" />
                   <Label text="Địa chỉ" GridPane.rowIndex="3" />
                   <Label text="Lợi nhuận" GridPane.rowIndex="5" />
-                  <Label text="Nhập khẩu" GridPane.rowIndex="7" />
                   <TextField fx:id="txtEntName" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                   <TextField fx:id="txtEntOwner" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                   <TextField fx:id="txtEntAddress" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                   <TextField fx:id="txtEntProduct" GridPane.columnIndex="1" GridPane.rowIndex="4" />
                   <TextField fx:id="txtEntProfit" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-                  <TextField fx:id="txtEntExport" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-                  <TextField fx:id="txtEntImport" GridPane.columnIndex="1" GridPane.rowIndex="7" />
                   <TextField fx:id="txtEntId" editable="false" layoutX="110.0" layoutY="40.0" GridPane.columnIndex="1" />
                </children>
             </GridPane>

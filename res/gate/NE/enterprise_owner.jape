@@ -1,8 +1,33 @@
 Phase:	EnterpriseOwner
-Input: Token Lookup
+Input: Token Lookup SpaceToken
 Options: control = appelt
 
 Rule: EnterpriseOwner
+(
+	({Lookup.majorType == owner, Lookup.minorType == first})
+	(
+		{SpaceToken}
+		{Token.orth == upperInitial}
+	) *
+):owner |
+(
+	({Lookup.majorType == owner, Lookup.minorType == prefix})
+	(
+		(
+			{SpaceToken}
+			{Token.orth == upperInitial}
+		) *
+	):owner
+) |
+(
+	({Lookup.majorType == owner, Lookup.minorType == prefix})
+	(
+		(
+			{SpaceToken}
+			{Token.orth == allCaps}
+		) *
+	):owner
+) |
 (
 	({Lookup.majorType == enterprise, Lookup.minorType == owner})
 ):owner

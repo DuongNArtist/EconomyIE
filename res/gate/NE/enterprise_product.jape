@@ -1,10 +1,21 @@
 Phase:	EnterpriseProduct
-Input: Token Lookup
+Input: Token Lookup SpaceToken
 Options: control = appelt
 
 Rule: EnterpriseProduct
 (
+	(
+		({Lookup.majorType == product, Lookup.minorType == prefix})
+		(
+			({Token.string == ","}) ?
+			{SpaceToken}
+			{Token.length > 0}
+		) *
+	) : product
+	({Token.string == ":"})
+) | 
+(
 	({Lookup.majorType == enterprise, Lookup.minorType == product})
-):product
+) : product
 -->
 :product.EnterpriseProduct = {kind = "EnterpriseProduct", rule = "EnterpriseProduct"}

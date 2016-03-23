@@ -1,0 +1,41 @@
+Phase:	EnterpriseOwner
+Input: Token Lookup SpaceToken
+Options: control = appelt
+
+Rule: EnterpriseOwner
+(
+	(
+		{Lookup.majorType == owner, Lookup.minorType == first}
+		{SpaceToken}
+		{Token.orth == upperInitial}
+		{SpaceToken}
+		{Token.orth == upperInitial}
+		{SpaceToken}
+		{Token.orth == upperInitial}
+		{SpaceToken}
+		{Token.orth == upperInitial}
+	) |
+	(
+		{Lookup.majorType == owner, Lookup.minorType == first}
+		{SpaceToken}
+		{Token.orth == upperInitial}
+		{SpaceToken}
+		{Token.orth == upperInitial}
+		{SpaceToken}
+		{Token.orth == upperInitial}
+	) |
+	(
+		{Lookup.majorType == owner, Lookup.minorType == first}
+		{SpaceToken}
+		{Token.orth == upperInitial}
+		{SpaceToken}
+		{Token.orth == upperInitial}
+	) |
+	(
+		{Lookup.majorType == owner, Lookup.minorType == first}
+		{SpaceToken}
+		{Token.orth == upperInitial}
+	)
+):owner
+-->
+:owner.EnterpriseOwner = {kind = "EnterpriseOwner", rule = "EnterpriseOwner"}
